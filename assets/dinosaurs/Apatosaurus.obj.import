@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Apatosaurus.obj-41389283b995bc77fd68f99204ef757f.mesh"
+
+[deps]
+
+files=[ "res://.import/Apatosaurus.obj-41389283b995bc77fd68f99204ef757f.mesh" ]
+
+source_file="res://assets/dinosaurs/Apatosaurus.obj"
+dest_files=[ "res://.import/Apatosaurus.obj-41389283b995bc77fd68f99204ef757f.mesh", "res://.import/Apatosaurus.obj-41389283b995bc77fd68f99204ef757f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

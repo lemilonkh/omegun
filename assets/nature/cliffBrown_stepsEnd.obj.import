@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/cliffBrown_stepsEnd.obj-01ee060ac9b7b22a48cc79b77b6984bd.mesh"
+
+[deps]
+
+files=[ "res://.import/cliffBrown_stepsEnd.obj-01ee060ac9b7b22a48cc79b77b6984bd.mesh" ]
+
+source_file="res://assets/nature/cliffBrown_stepsEnd.obj"
+dest_files=[ "res://.import/cliffBrown_stepsEnd.obj-01ee060ac9b7b22a48cc79b77b6984bd.mesh", "res://.import/cliffBrown_stepsEnd.obj-01ee060ac9b7b22a48cc79b77b6984bd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

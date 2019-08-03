@@ -1,0 +1,26 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=2]
+
+[ext_resource path="res://materials/custom_shield.shader" type="Shader" id=1]
+[ext_resource path="res://assets/energy_shield/Hex.png" type="Texture" id=2]
+
+[resource]
+shader = ExtResource( 1 )
+shader_param/alpha = 0.5
+shader_param/color = Color( 0, 0.670588, 1, 1 )
+shader_param/pulseIntensity = 1.0
+shader_param/pulseDistanceModifier = 5.0
+shader_param/pulseTextureModifier = 1.0
+shader_param/pulseCycleModifier = 2.0
+shader_param/edgePulsecolor = Color( 0.568627, 1, 0, 1 )
+shader_param/edgePulseIntensity = 3.0
+shader_param/edgeDistanceModifier = 20.0
+shader_param/edgeCycleModifier = 5.0
+shader_param/edgeWidthModifier = 0.38
+shader_param/edgeFalloffExp = 0.01
+shader_param/edgeIntensity = 1.0
+shader_param/intersectFalloffExp = 14.079
+shader_param/intersectIntensity = 0.0
+shader_param/near = 0.15
+shader_param/far = 300.0
+shader_param/hexTexture = ExtResource( 2 )
+

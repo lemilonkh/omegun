@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/cliffBrown_entrance.obj-beec1408ed3d95a62fc3e963bd9766a6.mesh"
+
+[deps]
+
+files=[ "res://.import/cliffBrown_entrance.obj-beec1408ed3d95a62fc3e963bd9766a6.mesh" ]
+
+source_file="res://assets/nature/cliffBrown_entrance.obj"
+dest_files=[ "res://.import/cliffBrown_entrance.obj-beec1408ed3d95a62fc3e963bd9766a6.mesh", "res://.import/cliffBrown_entrance.obj-beec1408ed3d95a62fc3e963bd9766a6.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

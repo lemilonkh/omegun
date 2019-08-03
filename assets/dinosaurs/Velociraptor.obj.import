@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Velociraptor.obj-542ee5417440853d2afa3e676426fefb.mesh"
+
+[deps]
+
+files=[ "res://.import/Velociraptor.obj-542ee5417440853d2afa3e676426fefb.mesh" ]
+
+source_file="res://assets/dinosaurs/Velociraptor.obj"
+dest_files=[ "res://.import/Velociraptor.obj-542ee5417440853d2afa3e676426fefb.mesh", "res://.import/Velociraptor.obj-542ee5417440853d2afa3e676426fefb.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

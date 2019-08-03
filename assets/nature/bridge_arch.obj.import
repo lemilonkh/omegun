@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bridge_arch.obj-aad1265b12d898799463e8d8063c3d79.mesh"
+
+[deps]
+
+files=[ "res://.import/bridge_arch.obj-aad1265b12d898799463e8d8063c3d79.mesh" ]
+
+source_file="res://assets/nature/bridge_arch.obj"
+dest_files=[ "res://.import/bridge_arch.obj-aad1265b12d898799463e8d8063c3d79.mesh", "res://.import/bridge_arch.obj-aad1265b12d898799463e8d8063c3d79.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Closed_Conduit_Control_Connector.obj-474c48755486af8814cb6b8930768276.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Closed_Conduit_Control_Connector.obj-474c48755486af8814cb6b8930768276.mesh" ]
+
+source_file="res://assets/temple/Puzzle_Closed_Conduit_Control_Connector.obj"
+dest_files=[ "res://.import/Puzzle_Closed_Conduit_Control_Connector.obj-474c48755486af8814cb6b8930768276.mesh", "res://.import/Puzzle_Closed_Conduit_Control_Connector.obj-474c48755486af8814cb6b8930768276.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Flag_Eclipse.obj-321c652ea405373d3143a2c1b1169bef.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Flag_Eclipse.obj-321c652ea405373d3143a2c1b1169bef.mesh" ]
+
+source_file="res://assets/temple/Prop_Flag_Eclipse.obj"
+dest_files=[ "res://.import/Prop_Flag_Eclipse.obj-321c652ea405373d3143a2c1b1169bef.mesh", "res://.import/Prop_Flag_Eclipse.obj-321c652ea405373d3143a2c1b1169bef.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

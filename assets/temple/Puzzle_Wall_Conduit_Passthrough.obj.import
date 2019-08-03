@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Wall_Conduit_Passthrough.obj-f959bb80be58298bdb485723149e0e63.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Wall_Conduit_Passthrough.obj-f959bb80be58298bdb485723149e0e63.mesh" ]
+
+source_file="res://assets/temple/Puzzle_Wall_Conduit_Passthrough.obj"
+dest_files=[ "res://.import/Puzzle_Wall_Conduit_Passthrough.obj-f959bb80be58298bdb485723149e0e63.mesh", "res://.import/Puzzle_Wall_Conduit_Passthrough.obj-f959bb80be58298bdb485723149e0e63.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

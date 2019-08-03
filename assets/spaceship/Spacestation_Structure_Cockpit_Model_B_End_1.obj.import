@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Structure_Cockpit_Model_B_End_1.obj-23eff3ec0ac214c83e4b25593c6f7686.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Structure_Cockpit_Model_B_End_1.obj-23eff3ec0ac214c83e4b25593c6f7686.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Structure_Cockpit_Model_B_End_1.obj"
+dest_files=[ "res://.import/Spacestation_Structure_Cockpit_Model_B_End_1.obj-23eff3ec0ac214c83e4b25593c6f7686.mesh", "res://.import/Spacestation_Structure_Cockpit_Model_B_End_1.obj-23eff3ec0ac214c83e4b25593c6f7686.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Weapon_Modular_Gun_Barrel_Straight.obj-8a9c5dac46c2ccb739809b6ca713997f.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Weapon_Modular_Gun_Barrel_Straight.obj-8a9c5dac46c2ccb739809b6ca713997f.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Weapon_Modular_Gun_Barrel_Straight.obj"
+dest_files=[ "res://.import/Spacestation_Weapon_Modular_Gun_Barrel_Straight.obj-8a9c5dac46c2ccb739809b6ca713997f.mesh", "res://.import/Spacestation_Weapon_Modular_Gun_Barrel_Straight.obj-8a9c5dac46c2ccb739809b6ca713997f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

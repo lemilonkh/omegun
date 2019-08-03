@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Weapon_Modular_Gun_Base.obj-3a723af2b3b30d8d704e615fe23a06c4.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Weapon_Modular_Gun_Base.obj-3a723af2b3b30d8d704e615fe23a06c4.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Weapon_Modular_Gun_Base.obj"
+dest_files=[ "res://.import/Spacestation_Weapon_Modular_Gun_Base.obj-3a723af2b3b30d8d704e615fe23a06c4.mesh", "res://.import/Spacestation_Weapon_Modular_Gun_Base.obj-3a723af2b3b30d8d704e615fe23a06c4.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

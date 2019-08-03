@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Structure_Fuselage_Long_Angled_Edge_Normal.obj-0232e6a8f44c39f4df39254f7620c7a4.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Structure_Fuselage_Long_Angled_Edge_Normal.obj-0232e6a8f44c39f4df39254f7620c7a4.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Structure_Fuselage_Long_Angled_Edge_Normal.obj"
+dest_files=[ "res://.import/Spacestation_Structure_Fuselage_Long_Angled_Edge_Normal.obj-0232e6a8f44c39f4df39254f7620c7a4.mesh", "res://.import/Spacestation_Structure_Fuselage_Long_Angled_Edge_Normal.obj-0232e6a8f44c39f4df39254f7620c7a4.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

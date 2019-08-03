@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Track_Rotating_Housing_Cross.obj-10e451450f5f770779cf38f23252b643.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Track_Rotating_Housing_Cross.obj-10e451450f5f770779cf38f23252b643.mesh" ]
+
+source_file="res://assets/temple/Puzzle_Track_Rotating_Housing_Cross.obj"
+dest_files=[ "res://.import/Puzzle_Track_Rotating_Housing_Cross.obj-10e451450f5f770779cf38f23252b643.mesh", "res://.import/Puzzle_Track_Rotating_Housing_Cross.obj-10e451450f5f770779cf38f23252b643.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tree_oak_fall.obj-d786b012a7e4e2ac4ded073e97ac113c.mesh"
+
+[deps]
+
+files=[ "res://.import/tree_oak_fall.obj-d786b012a7e4e2ac4ded073e97ac113c.mesh" ]
+
+source_file="res://assets/nature/tree_oak_fall.obj"
+dest_files=[ "res://.import/tree_oak_fall.obj-d786b012a7e4e2ac4ded073e97ac113c.mesh", "res://.import/tree_oak_fall.obj-d786b012a7e4e2ac4ded073e97ac113c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

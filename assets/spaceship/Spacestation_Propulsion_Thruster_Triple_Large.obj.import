@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Propulsion_Thruster_Triple_Large.obj-ab3c51dd28b7e9419e9329175e1eec7f.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Propulsion_Thruster_Triple_Large.obj-ab3c51dd28b7e9419e9329175e1eec7f.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Propulsion_Thruster_Triple_Large.obj"
+dest_files=[ "res://.import/Spacestation_Propulsion_Thruster_Triple_Large.obj-ab3c51dd28b7e9419e9329175e1eec7f.mesh", "res://.import/Spacestation_Propulsion_Thruster_Triple_Large.obj-ab3c51dd28b7e9419e9329175e1eec7f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

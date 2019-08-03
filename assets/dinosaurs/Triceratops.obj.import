@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Triceratops.obj-ed622a5745a559b9a2ff1e88d840cfef.mesh"
+
+[deps]
+
+files=[ "res://.import/Triceratops.obj-ed622a5745a559b9a2ff1e88d840cfef.mesh" ]
+
+source_file="res://assets/dinosaurs/Triceratops.obj"
+dest_files=[ "res://.import/Triceratops.obj-ed622a5745a559b9a2ff1e88d840cfef.mesh", "res://.import/Triceratops.obj-ed622a5745a559b9a2ff1e88d840cfef.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

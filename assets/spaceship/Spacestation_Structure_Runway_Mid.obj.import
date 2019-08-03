@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Structure_Runway_Mid.obj-30a350cac71d789e2aa143cf85a1e32a.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Structure_Runway_Mid.obj-30a350cac71d789e2aa143cf85a1e32a.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Structure_Runway_Mid.obj"
+dest_files=[ "res://.import/Spacestation_Structure_Runway_Mid.obj-30a350cac71d789e2aa143cf85a1e32a.mesh", "res://.import/Spacestation_Structure_Runway_Mid.obj-30a350cac71d789e2aa143cf85a1e32a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

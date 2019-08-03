@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Floor_Conduit_Control_Housing_Unconnected.obj-b235d6e4681f91123f2ea3a404c347a6.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Floor_Conduit_Control_Housing_Unconnected.obj-b235d6e4681f91123f2ea3a404c347a6.mesh" ]
+
+source_file="res://assets/temple/Puzzle_Floor_Conduit_Control_Housing_Unconnected.obj"
+dest_files=[ "res://.import/Puzzle_Floor_Conduit_Control_Housing_Unconnected.obj-b235d6e4681f91123f2ea3a404c347a6.mesh", "res://.import/Puzzle_Floor_Conduit_Control_Housing_Unconnected.obj-b235d6e4681f91123f2ea3a404c347a6.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

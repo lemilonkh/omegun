@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Propulsion_Thruster_Single_Small.obj-92e26ff023a7963483539ac2305411ca.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Propulsion_Thruster_Single_Small.obj-92e26ff023a7963483539ac2305411ca.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Propulsion_Thruster_Single_Small.obj"
+dest_files=[ "res://.import/Spacestation_Propulsion_Thruster_Single_Small.obj-92e26ff023a7963483539ac2305411ca.mesh", "res://.import/Spacestation_Propulsion_Thruster_Single_Small.obj-92e26ff023a7963483539ac2305411ca.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

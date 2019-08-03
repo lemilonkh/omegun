@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Balcony_Railing_Tower.obj-cc48836842893a5d5e331f5a9109fd16.mesh"
+
+[deps]
+
+files=[ "res://.import/Balcony_Railing_Tower.obj-cc48836842893a5d5e331f5a9109fd16.mesh" ]
+
+source_file="res://assets/temple/Balcony_Railing_Tower.obj"
+dest_files=[ "res://.import/Balcony_Railing_Tower.obj-cc48836842893a5d5e331f5a9109fd16.mesh", "res://.import/Balcony_Railing_Tower.obj-cc48836842893a5d5e331f5a9109fd16.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

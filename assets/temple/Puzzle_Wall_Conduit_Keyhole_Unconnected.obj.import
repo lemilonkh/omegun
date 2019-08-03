@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Wall_Conduit_Keyhole_Unconnected.obj-84ff35a861eb88b501d02730f6df4aae.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Wall_Conduit_Keyhole_Unconnected.obj-84ff35a861eb88b501d02730f6df4aae.mesh" ]
+
+source_file="res://assets/temple/Puzzle_Wall_Conduit_Keyhole_Unconnected.obj"
+dest_files=[ "res://.import/Puzzle_Wall_Conduit_Keyhole_Unconnected.obj-84ff35a861eb88b501d02730f6df4aae.mesh", "res://.import/Puzzle_Wall_Conduit_Keyhole_Unconnected.obj-84ff35a861eb88b501d02730f6df4aae.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

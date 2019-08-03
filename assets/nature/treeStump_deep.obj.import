@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/treeStump_deep.obj-54899f2ba07015146bb467758a8a96ee.mesh"
+
+[deps]
+
+files=[ "res://.import/treeStump_deep.obj-54899f2ba07015146bb467758a8a96ee.mesh" ]
+
+source_file="res://assets/nature/treeStump_deep.obj"
+dest_files=[ "res://.import/treeStump_deep.obj-54899f2ba07015146bb467758a8a96ee.mesh", "res://.import/treeStump_deep.obj-54899f2ba07015146bb467758a8a96ee.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

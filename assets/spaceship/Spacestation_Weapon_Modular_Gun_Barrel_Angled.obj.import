@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Weapon_Modular_Gun_Barrel_Angled.obj-12565d2f9fe810da7f3caabe7929fb47.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Weapon_Modular_Gun_Barrel_Angled.obj-12565d2f9fe810da7f3caabe7929fb47.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Weapon_Modular_Gun_Barrel_Angled.obj"
+dest_files=[ "res://.import/Spacestation_Weapon_Modular_Gun_Barrel_Angled.obj-12565d2f9fe810da7f3caabe7929fb47.mesh", "res://.import/Spacestation_Weapon_Modular_Gun_Barrel_Angled.obj-12565d2f9fe810da7f3caabe7929fb47.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Tower_Parapet_Simple_Crowned.obj-ea7633236ebf3f323ac087bacc669e9c.mesh"
+
+[deps]
+
+files=[ "res://.import/Tower_Parapet_Simple_Crowned.obj-ea7633236ebf3f323ac087bacc669e9c.mesh" ]
+
+source_file="res://assets/temple/Tower_Parapet_Simple_Crowned.obj"
+dest_files=[ "res://.import/Tower_Parapet_Simple_Crowned.obj-ea7633236ebf3f323ac087bacc669e9c.mesh", "res://.import/Tower_Parapet_Simple_Crowned.obj-ea7633236ebf3f323ac087bacc669e9c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

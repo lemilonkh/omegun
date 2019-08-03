@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Structure_Flap.obj-c1dcd06cd33d922a14b2f04e7fe3c305.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Structure_Flap.obj-c1dcd06cd33d922a14b2f04e7fe3c305.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Structure_Flap.obj"
+dest_files=[ "res://.import/Spacestation_Structure_Flap.obj-c1dcd06cd33d922a14b2f04e7fe3c305.mesh", "res://.import/Spacestation_Structure_Flap.obj-c1dcd06cd33d922a14b2f04e7fe3c305.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

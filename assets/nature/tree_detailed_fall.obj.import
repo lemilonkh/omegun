@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tree_detailed_fall.obj-675292cf994d8535bd6ff0aa7dad4a35.mesh"
+
+[deps]
+
+files=[ "res://.import/tree_detailed_fall.obj-675292cf994d8535bd6ff0aa7dad4a35.mesh" ]
+
+source_file="res://assets/nature/tree_detailed_fall.obj"
+dest_files=[ "res://.import/tree_detailed_fall.obj-675292cf994d8535bd6ff0aa7dad4a35.mesh", "res://.import/tree_detailed_fall.obj-675292cf994d8535bd6ff0aa7dad4a35.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

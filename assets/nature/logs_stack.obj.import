@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/logs_stack.obj-18de7718e0915978bc4f9a50fe3b8c56.mesh"
+
+[deps]
+
+files=[ "res://.import/logs_stack.obj-18de7718e0915978bc4f9a50fe3b8c56.mesh" ]
+
+source_file="res://assets/nature/logs_stack.obj"
+dest_files=[ "res://.import/logs_stack.obj-18de7718e0915978bc4f9a50fe3b8c56.mesh", "res://.import/logs_stack.obj-18de7718e0915978bc4f9a50fe3b8c56.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Frog.obj-693e691550e09c1e9eafc559477996ca.mesh"
+
+[deps]
+
+files=[ "res://.import/Frog.obj-693e691550e09c1e9eafc559477996ca.mesh" ]
+
+source_file="res://assets/enemies/Easy Animated Enemy Pack - Jan 2019/OBJ/Frog.obj"
+dest_files=[ "res://.import/Frog.obj-693e691550e09c1e9eafc559477996ca.mesh", "res://.import/Frog.obj-693e691550e09c1e9eafc559477996ca.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

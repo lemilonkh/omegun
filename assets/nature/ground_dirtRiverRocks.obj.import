@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ground_dirtRiverRocks.obj-4ed1b49a98c2573376d330838ab6c81d.mesh"
+
+[deps]
+
+files=[ "res://.import/ground_dirtRiverRocks.obj-4ed1b49a98c2573376d330838ab6c81d.mesh" ]
+
+source_file="res://assets/nature/ground_dirtRiverRocks.obj"
+dest_files=[ "res://.import/ground_dirtRiverRocks.obj-4ed1b49a98c2573376d330838ab6c81d.mesh", "res://.import/ground_dirtRiverRocks.obj-4ed1b49a98c2573376d330838ab6c81d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

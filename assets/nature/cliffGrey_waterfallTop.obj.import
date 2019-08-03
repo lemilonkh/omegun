@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/cliffGrey_waterfallTop.obj-38f3becccf14baa05be1d147edcb43dd.mesh"
+
+[deps]
+
+files=[ "res://.import/cliffGrey_waterfallTop.obj-38f3becccf14baa05be1d147edcb43dd.mesh" ]
+
+source_file="res://assets/nature/cliffGrey_waterfallTop.obj"
+dest_files=[ "res://.import/cliffGrey_waterfallTop.obj-38f3becccf14baa05be1d147edcb43dd.mesh", "res://.import/cliffGrey_waterfallTop.obj-38f3becccf14baa05be1d147edcb43dd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

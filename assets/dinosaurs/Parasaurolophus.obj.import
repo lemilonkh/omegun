@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Parasaurolophus.obj-5f9ff17c2c24df044f59e5e31d4129fa.mesh"
+
+[deps]
+
+files=[ "res://.import/Parasaurolophus.obj-5f9ff17c2c24df044f59e5e31d4129fa.mesh" ]
+
+source_file="res://assets/dinosaurs/Parasaurolophus.obj"
+dest_files=[ "res://.import/Parasaurolophus.obj-5f9ff17c2c24df044f59e5e31d4129fa.mesh", "res://.import/Parasaurolophus.obj-5f9ff17c2c24df044f59e5e31d4129fa.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

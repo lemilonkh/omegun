@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Rat.obj-f5dc993505f0e4d852c61fdd34febf81.mesh"
+
+[deps]
+
+files=[ "res://.import/Rat.obj-f5dc993505f0e4d852c61fdd34febf81.mesh" ]
+
+source_file="res://assets/enemies/Easy Animated Enemy Pack - Jan 2019/OBJ/Rat.obj"
+dest_files=[ "res://.import/Rat.obj-f5dc993505f0e4d852c61fdd34febf81.mesh", "res://.import/Rat.obj-f5dc993505f0e4d852c61fdd34febf81.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

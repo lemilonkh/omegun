@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Structure_Fuselage_Straight_Vertical_Band.obj-27e216502e1df73fc6546c2b65c23cc8.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Structure_Fuselage_Straight_Vertical_Band.obj-27e216502e1df73fc6546c2b65c23cc8.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Structure_Fuselage_Straight_Vertical_Band.obj"
+dest_files=[ "res://.import/Spacestation_Structure_Fuselage_Straight_Vertical_Band.obj-27e216502e1df73fc6546c2b65c23cc8.mesh", "res://.import/Spacestation_Structure_Fuselage_Straight_Vertical_Band.obj-27e216502e1df73fc6546c2b65c23cc8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/fence_simpleLow.obj-a4008be65cf2cd68fc29c96e839d0edd.mesh"
+
+[deps]
+
+files=[ "res://.import/fence_simpleLow.obj-a4008be65cf2cd68fc29c96e839d0edd.mesh" ]
+
+source_file="res://assets/nature/fence_simpleLow.obj"
+dest_files=[ "res://.import/fence_simpleLow.obj-a4008be65cf2cd68fc29c96e839d0edd.mesh", "res://.import/fence_simpleLow.obj-a4008be65cf2cd68fc29c96e839d0edd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

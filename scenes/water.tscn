@@ -1,0 +1,105 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://materials/waterfall.tres" type="Material" id=1]
+
+[sub_resource type="QuadMesh" id=1]
+
+[sub_resource type="Shader" id=2]
+code = "shader_type spatial;
+render_mode unshaded, depth_draw_never;
+
+uniform vec4 main_color: hint_color;
+uniform vec4 intersection_color: hint_color;
+uniform float intersection_max_threshold: hint_range(0, 1) = 0.5;
+uniform sampler2D displacement_texture: hint_albedo;
+uniform float displacement_amount: hint_range(0, 1) = 0.6;
+uniform float near = 0.15;
+uniform float far = 300.0;
+
+float linearize(float depth) {
+	depth = 2.0 * depth - 1.0;
+	return near * far / (far + depth * (near - far));
+}
+
+void fragment() {
+	float screenDepth = texture(DEPTH_TEXTURE, SCREEN_UV).x;
+	vec3 ndc = vec3(SCREEN_UV, screenDepth) * 2.0 - 1.0; // normalized device coordinates
+	vec4 view = INV_PROJECTION_MATRIX * vec4(ndc, 1.0);
+	view.xyz /= view.w;
+	float linear_depth = -view.z;
+	
+	float fragmentDepth = linearize(FRAGCOORD.z);
+	float depthDifference = 1.0; //linear_depth - fragmentDepth;
+	
+	vec2 displacement = texture(displacement_texture, UV - TIME / 7.0).rg;
+	displacement = ((displacement * 2.0) - 1.0) * displacement_amount;
+	depthDifference += displacement.x;
+	
+	vec4 color = mix(intersection_color, main_color, step(intersection_max_threshold, depthDifference));
+	ALBEDO = color.rgb;
+}"
+
+[sub_resource type="OpenSimplexNoise" id=3]
+seed = 10
+octaves = 4
+period = 29.8
+persistence = 0.059
+lacunarity = 3.78
+
+[sub_resource type="NoiseTexture" id=4]
+flags = 3
+seamless = true
+noise = SubResource( 3 )
+
+[sub_resource type="ShaderMaterial" id=5]
+shader = SubResource( 2 )
+shader_param/main_color = Color( 0, 0.647059, 0.678431, 1 )
+shader_param/intersection_color = Color( 1, 1, 1, 1 )
+shader_param/intersection_max_threshold = 0.508
+shader_param/displacement_amount = 0.769
+shader_param/near = 0.15
+shader_param/far = 300.0
+shader_param/displacement_texture = SubResource( 4 )
+
+[sub_resource type="CylinderMesh" id=6]
+
+[sub_resource type="CubeMesh" id=7]
+
+[sub_resource type="SpatialMaterial" id=8]
+albedo_color = Color( 0.258824, 0, 0, 1 )
+
+[node name="Water" type="Spatial"]
+
+[node name="WaterPlane" type="MeshInstance" parent="."]
+transform = Transform( 10, 0, 0, 0, -4.37114e-07, 10, 0, -10, -4.37114e-07, 0, 0, 0 )
+mesh = SubResource( 1 )
+material/0 = SubResource( 5 )
+
+[node name="Waterfall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 5, 0, 0, 0, 1, 0, 5, 0 )
+mesh = SubResource( 6 )
+material/0 = ExtResource( 1 )
+
+[node name="Wall" type="MeshInstance" parent="."]
+transform = Transform( 6, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5 )
+mesh = SubResource( 7 )
+material/0 = SubResource( 8 )
+
+[node name="Wall2" type="MeshInstance" parent="."]
+transform = Transform( 6, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5 )
+mesh = SubResource( 7 )
+material/0 = SubResource( 8 )
+
+[node name="Wall3" type="MeshInstance" parent="."]
+transform = Transform( -2.62268e-07, 0, -1, 0, 1, 0, 6, 0, -4.37114e-08, -5, 0, 0 )
+mesh = SubResource( 7 )
+material/0 = SubResource( 8 )
+
+[node name="Wall4" type="MeshInstance" parent="."]
+transform = Transform( -2.62268e-07, 0, -1, 0, 1, 0, 6, 0, -4.37114e-08, 5, 0, 0 )
+mesh = SubResource( 7 )
+material/0 = SubResource( 8 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( -1, 0, -8.74228e-08, -1.51808e-08, 0.984808, 0.173648, 8.60946e-08, 0.173648, -0.984808, 0, 4, -7 )
+

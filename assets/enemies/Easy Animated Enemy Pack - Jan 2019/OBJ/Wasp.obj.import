@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wasp.obj-5c6cea1f8f0387e4e4cddeedb928a738.mesh"
+
+[deps]
+
+files=[ "res://.import/Wasp.obj-5c6cea1f8f0387e4e4cddeedb928a738.mesh" ]
+
+source_file="res://assets/enemies/Easy Animated Enemy Pack - Jan 2019/OBJ/Wasp.obj"
+dest_files=[ "res://.import/Wasp.obj-5c6cea1f8f0387e4e4cddeedb928a738.mesh", "res://.import/Wasp.obj-5c6cea1f8f0387e4e4cddeedb928a738.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

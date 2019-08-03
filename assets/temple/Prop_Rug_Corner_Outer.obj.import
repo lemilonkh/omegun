@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Rug_Corner_Outer.obj-64e0a03db18e8ff6ce7fa52f4a00203c.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Rug_Corner_Outer.obj-64e0a03db18e8ff6ce7fa52f4a00203c.mesh" ]
+
+source_file="res://assets/temple/Prop_Rug_Corner_Outer.obj"
+dest_files=[ "res://.import/Prop_Rug_Corner_Outer.obj-64e0a03db18e8ff6ce7fa52f4a00203c.mesh", "res://.import/Prop_Rug_Corner_Outer.obj-64e0a03db18e8ff6ce7fa52f4a00203c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

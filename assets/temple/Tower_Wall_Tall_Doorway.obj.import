@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Tower_Wall_Tall_Doorway.obj-c7171af83226738443529ac7802a096f.mesh"
+
+[deps]
+
+files=[ "res://.import/Tower_Wall_Tall_Doorway.obj-c7171af83226738443529ac7802a096f.mesh" ]
+
+source_file="res://assets/temple/Tower_Wall_Tall_Doorway.obj"
+dest_files=[ "res://.import/Tower_Wall_Tall_Doorway.obj-c7171af83226738443529ac7802a096f.mesh", "res://.import/Tower_Wall_Tall_Doorway.obj-c7171af83226738443529ac7802a096f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

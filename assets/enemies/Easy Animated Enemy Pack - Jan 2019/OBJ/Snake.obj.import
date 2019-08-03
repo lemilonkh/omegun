@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Snake.obj-b37da8015f684495af44a9afe0f85654.mesh"
+
+[deps]
+
+files=[ "res://.import/Snake.obj-b37da8015f684495af44a9afe0f85654.mesh" ]
+
+source_file="res://assets/enemies/Easy Animated Enemy Pack - Jan 2019/OBJ/Snake.obj"
+dest_files=[ "res://.import/Snake.obj-b37da8015f684495af44a9afe0f85654.mesh", "res://.import/Snake.obj-b37da8015f684495af44a9afe0f85654.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

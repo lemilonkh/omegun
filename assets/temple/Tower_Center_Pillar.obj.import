@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Tower_Center_Pillar.obj-a78735e708e1e5172f1afa393cce3b0b.mesh"
+
+[deps]
+
+files=[ "res://.import/Tower_Center_Pillar.obj-a78735e708e1e5172f1afa393cce3b0b.mesh" ]
+
+source_file="res://assets/temple/Tower_Center_Pillar.obj"
+dest_files=[ "res://.import/Tower_Center_Pillar.obj-a78735e708e1e5172f1afa393cce3b0b.mesh", "res://.import/Tower_Center_Pillar.obj-a78735e708e1e5172f1afa393cce3b0b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

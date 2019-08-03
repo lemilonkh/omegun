@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/campfireStones_blocks.obj-1e8a3a7ce7976a12ab2829d5936a4064.mesh"
+
+[deps]
+
+files=[ "res://.import/campfireStones_blocks.obj-1e8a3a7ce7976a12ab2829d5936a4064.mesh" ]
+
+source_file="res://assets/nature/campfireStones_blocks.obj"
+dest_files=[ "res://.import/campfireStones_blocks.obj-1e8a3a7ce7976a12ab2829d5936a4064.mesh", "res://.import/campfireStones_blocks.obj-1e8a3a7ce7976a12ab2829d5936a4064.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

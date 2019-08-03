@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Floor_Ruined_Straight_1.obj-cb3f6abf5a69ff8583b699ae8fba3e3c.mesh"
+
+[deps]
+
+files=[ "res://.import/Floor_Ruined_Straight_1.obj-cb3f6abf5a69ff8583b699ae8fba3e3c.mesh" ]
+
+source_file="res://assets/temple/Floor_Ruined_Straight_1.obj"
+dest_files=[ "res://.import/Floor_Ruined_Straight_1.obj-cb3f6abf5a69ff8583b699ae8fba3e3c.mesh", "res://.import/Floor_Ruined_Straight_1.obj-cb3f6abf5a69ff8583b699ae8fba3e3c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

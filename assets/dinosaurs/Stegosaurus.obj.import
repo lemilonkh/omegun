@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Stegosaurus.obj-bf83b50ddd93870b60124510f287a632.mesh"
+
+[deps]
+
+files=[ "res://.import/Stegosaurus.obj-bf83b50ddd93870b60124510f287a632.mesh" ]
+
+source_file="res://assets/dinosaurs/Stegosaurus.obj"
+dest_files=[ "res://.import/Stegosaurus.obj-bf83b50ddd93870b60124510f287a632.mesh", "res://.import/Stegosaurus.obj-bf83b50ddd93870b60124510f287a632.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

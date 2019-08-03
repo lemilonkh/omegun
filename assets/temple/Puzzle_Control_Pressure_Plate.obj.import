@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Control_Pressure_Plate.obj-5fc2229359fec4123dddeb3dec561e97.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Control_Pressure_Plate.obj-5fc2229359fec4123dddeb3dec561e97.mesh" ]
+
+source_file="res://assets/temple/Puzzle_Control_Pressure_Plate.obj"
+dest_files=[ "res://.import/Puzzle_Control_Pressure_Plate.obj-5fc2229359fec4123dddeb3dec561e97.mesh", "res://.import/Puzzle_Control_Pressure_Plate.obj-5fc2229359fec4123dddeb3dec561e97.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

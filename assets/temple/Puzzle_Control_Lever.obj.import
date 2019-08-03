@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Control_Lever.obj-dd9845373f81c0a4c715bb5fe7e93dd9.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Control_Lever.obj-dd9845373f81c0a4c715bb5fe7e93dd9.mesh" ]
+
+source_file="res://assets/temple/Puzzle_Control_Lever.obj"
+dest_files=[ "res://.import/Puzzle_Control_Lever.obj-dd9845373f81c0a4c715bb5fe7e93dd9.mesh", "res://.import/Puzzle_Control_Lever.obj-dd9845373f81c0a4c715bb5fe7e93dd9.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

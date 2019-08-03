@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Structure_Rod_Housing_Long_Forward.obj-06e0a93592014de4a223540bd61e2219.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Structure_Rod_Housing_Long_Forward.obj-06e0a93592014de4a223540bd61e2219.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Structure_Rod_Housing_Long_Forward.obj"
+dest_files=[ "res://.import/Spacestation_Structure_Rod_Housing_Long_Forward.obj-06e0a93592014de4a223540bd61e2219.mesh", "res://.import/Spacestation_Structure_Rod_Housing_Long_Forward.obj-06e0a93592014de4a223540bd61e2219.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

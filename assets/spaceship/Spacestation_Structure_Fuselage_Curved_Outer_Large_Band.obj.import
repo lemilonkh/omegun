@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Structure_Fuselage_Curved_Outer_Large_Band.obj-1771ff330dc4e470d8149a3a75a34217.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Structure_Fuselage_Curved_Outer_Large_Band.obj-1771ff330dc4e470d8149a3a75a34217.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Structure_Fuselage_Curved_Outer_Large_Band.obj"
+dest_files=[ "res://.import/Spacestation_Structure_Fuselage_Curved_Outer_Large_Band.obj-1771ff330dc4e470d8149a3a75a34217.mesh", "res://.import/Spacestation_Structure_Fuselage_Curved_Outer_Large_Band.obj-1771ff330dc4e470d8149a3a75a34217.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

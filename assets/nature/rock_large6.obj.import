@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/rock_large6.obj-880a8df3c54445a6f83ff392c6790255.mesh"
+
+[deps]
+
+files=[ "res://.import/rock_large6.obj-880a8df3c54445a6f83ff392c6790255.mesh" ]
+
+source_file="res://assets/nature/rock_large6.obj"
+dest_files=[ "res://.import/rock_large6.obj-880a8df3c54445a6f83ff392c6790255.mesh", "res://.import/rock_large6.obj-880a8df3c54445a6f83ff392c6790255.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

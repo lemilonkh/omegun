@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/flower_beige3.obj-9ebaf91c9058d2e15023ab438a96b6c3.mesh"
+
+[deps]
+
+files=[ "res://.import/flower_beige3.obj-9ebaf91c9058d2e15023ab438a96b6c3.mesh" ]
+
+source_file="res://assets/nature/flower_beige3.obj"
+dest_files=[ "res://.import/flower_beige3.obj-9ebaf91c9058d2e15023ab438a96b6c3.mesh", "res://.import/flower_beige3.obj-9ebaf91c9058d2e15023ab438a96b6c3.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

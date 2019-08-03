@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Frog.obj-e201d3e3b4627f2ad9ef4b1951e762a0.mesh"
+
+[deps]
+
+files=[ "res://.import/Frog.obj-e201d3e3b4627f2ad9ef4b1951e762a0.mesh" ]
+
+source_file="res://assets/animals/Frog.obj"
+dest_files=[ "res://.import/Frog.obj-e201d3e3b4627f2ad9ef4b1951e762a0.mesh", "res://.import/Frog.obj-e201d3e3b4627f2ad9ef4b1951e762a0.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Structure_Fuselage_Narrow_Front.obj-4c066af563da6fa8f8637e1fd8254ef0.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Structure_Fuselage_Narrow_Front.obj-4c066af563da6fa8f8637e1fd8254ef0.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Structure_Fuselage_Narrow_Front.obj"
+dest_files=[ "res://.import/Spacestation_Structure_Fuselage_Narrow_Front.obj-4c066af563da6fa8f8637e1fd8254ef0.mesh", "res://.import/Spacestation_Structure_Fuselage_Narrow_Front.obj-4c066af563da6fa8f8637e1fd8254ef0.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Balcony_Railing_Bridge_Ramp.obj-ad6473ee742e8f151f4fb04cb8edc7ea.mesh"
+
+[deps]
+
+files=[ "res://.import/Balcony_Railing_Bridge_Ramp.obj-ad6473ee742e8f151f4fb04cb8edc7ea.mesh" ]
+
+source_file="res://assets/temple/Balcony_Railing_Bridge_Ramp.obj"
+dest_files=[ "res://.import/Balcony_Railing_Bridge_Ramp.obj-ad6473ee742e8f151f4fb04cb8edc7ea.mesh", "res://.import/Balcony_Railing_Bridge_Ramp.obj-ad6473ee742e8f151f4fb04cb8edc7ea.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Structure_Ribbed_Straight_Vertical.obj-668f1217c880e844734705659cefc623.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Structure_Ribbed_Straight_Vertical.obj-668f1217c880e844734705659cefc623.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Structure_Ribbed_Straight_Vertical.obj"
+dest_files=[ "res://.import/Spacestation_Structure_Ribbed_Straight_Vertical.obj-668f1217c880e844734705659cefc623.mesh", "res://.import/Spacestation_Structure_Ribbed_Straight_Vertical.obj-668f1217c880e844734705659cefc623.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

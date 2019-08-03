@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tree_tall_dark.obj-7a97be5741a1d83cde07ef38ba2ce5f0.mesh"
+
+[deps]
+
+files=[ "res://.import/tree_tall_dark.obj-7a97be5741a1d83cde07ef38ba2ce5f0.mesh" ]
+
+source_file="res://assets/nature/tree_tall_dark.obj"
+dest_files=[ "res://.import/tree_tall_dark.obj-7a97be5741a1d83cde07ef38ba2ce5f0.mesh", "res://.import/tree_tall_dark.obj-7a97be5741a1d83cde07ef38ba2ce5f0.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

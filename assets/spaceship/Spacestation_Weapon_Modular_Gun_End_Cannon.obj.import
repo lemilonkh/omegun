@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Weapon_Modular_Gun_End_Cannon.obj-a4dfc7b993c142f12d850ab1c5e5d26f.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Weapon_Modular_Gun_End_Cannon.obj-a4dfc7b993c142f12d850ab1c5e5d26f.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Weapon_Modular_Gun_End_Cannon.obj"
+dest_files=[ "res://.import/Spacestation_Weapon_Modular_Gun_End_Cannon.obj-a4dfc7b993c142f12d850ab1c5e5d26f.mesh", "res://.import/Spacestation_Weapon_Modular_Gun_End_Cannon.obj-a4dfc7b993c142f12d850ab1c5e5d26f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

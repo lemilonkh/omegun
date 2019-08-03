@@ -1,0 +1,110 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://scripts/player.gd" type="Script" id=1]
+[ext_resource path="res://scripts/camera_follow.gd" type="Script" id=2]
+
+[sub_resource type="Shader" id=1]
+code = "shader_type spatial;
+render_mode unshaded;
+
+uniform sampler2D noise_texture;
+uniform sampler2D displacement_texture;
+uniform vec4 top_light_color: hint_color;
+uniform vec4 top_dark_color: hint_color;
+uniform vec4 bottom_light_color: hint_color;
+uniform vec4 bottom_dark_color: hint_color;
+uniform float displacement_amount = 0.02;
+uniform float bottom_foam_threshold: hint_range(0, 1) = 0.48;
+uniform float speed = 0.25;
+uniform float color_count: hint_range(1, 100) = 5;
+
+void fragment() {
+	vec2 displacement = texture(displacement_texture, UV - TIME / 8.0).rg;
+	displacement = ((displacement * 2.0) - 1.0) * displacement_amount;
+	
+	float noise = texture(noise_texture, vec2(UV.x, UV.y / 3.0 - TIME / 6.0) + displacement).x;
+	noise = floor(noise * color_count) / color_count;
+	
+	vec4 color = mix(mix(top_dark_color, bottom_dark_color, UV.y), mix(top_light_color, bottom_light_color, UV.y), noise);
+	color = mix(vec4(1.0), color, step(UV.y + displacement.y, bottom_foam_threshold));
+	
+	ALBEDO = color.rgb;
+}"
+
+[sub_resource type="OpenSimplexNoise" id=2]
+seed = 8
+period = 171.2
+persistence = 0.828
+lacunarity = 3.08
+
+[sub_resource type="NoiseTexture" id=3]
+seamless = true
+as_normalmap = true
+bump_strength = 25.9
+noise = SubResource( 2 )
+
+[sub_resource type="OpenSimplexNoise" id=4]
+seed = 5
+octaves = 6
+persistence = 0.37
+lacunarity = 4.0
+
+[sub_resource type="NoiseTexture" id=5]
+seamless = true
+bump_strength = 29.0
+noise = SubResource( 4 )
+
+[sub_resource type="ShaderMaterial" id=6]
+shader = SubResource( 1 )
+shader_param/top_light_color = Color( 1, 0.72549, 0, 1 )
+shader_param/top_dark_color = Color( 0, 0.0392157, 0.619608, 1 )
+shader_param/bottom_light_color = Color( 0.890196, 0.537255, 1, 1 )
+shader_param/bottom_dark_color = Color( 0.282353, 0.00784314, 0.396078, 1 )
+shader_param/displacement_amount = 0.02
+shader_param/bottom_foam_threshold = 1.0
+shader_param/speed = 0.25
+shader_param/color_count = 19.415
+shader_param/noise_texture = SubResource( 5 )
+shader_param/displacement_texture = SubResource( 3 )
+
+[sub_resource type="SphereMesh" id=7]
+material = SubResource( 6 )
+
+[sub_resource type="SphereShape" id=8]
+
+[sub_resource type="CubeMesh" id=9]
+size = Vector3( 2, 0.2, 0.2 )
+
+[node name="player" type="KinematicBody"]
+collision_layer = 2
+collision_mask = 3
+script = ExtResource( 1 )
+camera_node = NodePath("CameraTarget/Camera")
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+mesh = SubResource( 7 )
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+shape = SubResource( 8 )
+
+[node name="CameraTarget" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
+
+[node name="Camera" type="Camera" parent="CameraTarget"]
+transform = Transform( 1, 0, 0, 0, 0.62955, 0.77696, 0, -0.77696, 0.62955, 9.53674e-07, 4.11015, 4.58932 )
+current = true
+script = ExtResource( 2 )
+
+[node name="MeshInstance2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0 )
+mesh = SubResource( 9 )
+material/0 = null
+
+[node name="OmniLight" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
+light_color = Color( 0, 1, 0.764706, 1 )
+light_energy = 8.0
+light_indirect_energy = 4.0
+shadow_enabled = true
+

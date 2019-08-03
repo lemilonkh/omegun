@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Rug_Moon.obj-fd570274d4523ab65f6db74ca7ff07f0.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Rug_Moon.obj-fd570274d4523ab65f6db74ca7ff07f0.mesh" ]
+
+source_file="res://assets/temple/Prop_Rug_Moon.obj"
+dest_files=[ "res://.import/Prop_Rug_Moon.obj-fd570274d4523ab65f6db74ca7ff07f0.mesh", "res://.import/Prop_Rug_Moon.obj-fd570274d4523ab65f6db74ca7ff07f0.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

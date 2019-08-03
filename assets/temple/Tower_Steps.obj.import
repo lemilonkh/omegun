@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Tower_Steps.obj-c1fc02f2f6ab7e338ffcdf6f7d6095c9.mesh"
+
+[deps]
+
+files=[ "res://.import/Tower_Steps.obj-c1fc02f2f6ab7e338ffcdf6f7d6095c9.mesh" ]
+
+source_file="res://assets/temple/Tower_Steps.obj"
+dest_files=[ "res://.import/Tower_Steps.obj-c1fc02f2f6ab7e338ffcdf6f7d6095c9.mesh", "res://.import/Tower_Steps.obj-c1fc02f2f6ab7e338ffcdf6f7d6095c9.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

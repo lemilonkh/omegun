@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Vase_1.obj-0d67a1ce983c453c1e7c5a14322f13be.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Vase_1.obj-0d67a1ce983c453c1e7c5a14322f13be.mesh" ]
+
+source_file="res://assets/temple/Prop_Vase_1.obj"
+dest_files=[ "res://.import/Prop_Vase_1.obj-0d67a1ce983c453c1e7c5a14322f13be.mesh", "res://.import/Prop_Vase_1.obj-0d67a1ce983c453c1e7c5a14322f13be.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

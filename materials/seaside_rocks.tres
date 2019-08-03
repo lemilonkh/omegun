@@ -1,0 +1,30 @@
+[gd_resource type="SpatialMaterial" load_steps=6 format=2]
+
+[ext_resource path="res://materials/textures/Seaside_rocks_02_2K_Base_Color.png" type="Texture" id=1]
+[ext_resource path="res://materials/textures/Seaside_rocks_02_2K_AO.png" type="Texture" id=2]
+[ext_resource path="res://materials/textures/Seaside_rocks_02_2K_Height.png" type="Texture" id=3]
+[ext_resource path="res://materials/textures/Seaside_rocks_02_2K_Normal.png" type="Texture" id=4]
+[ext_resource path="res://materials/textures/Seaside_rocks_02_2K_Roughness.png" type="Texture" id=5]
+
+[resource]
+albedo_texture = ExtResource( 1 )
+roughness = 0.78
+roughness_texture = ExtResource( 5 )
+normal_enabled = true
+normal_scale = 1.0
+normal_texture = ExtResource( 4 )
+ao_enabled = true
+ao_light_affect = 0.46
+ao_texture = ExtResource( 2 )
+ao_on_uv2 = false
+ao_texture_channel = 0
+depth_enabled = true
+depth_scale = 6.36
+depth_deep_parallax = false
+depth_flip_tangent = false
+depth_flip_binormal = true
+depth_texture = ExtResource( 3 )
+uv1_scale = Vector3( 0.5, 0.5, 0.5 )
+uv1_triplanar = true
+uv1_triplanar_sharpness = 4.43828
+

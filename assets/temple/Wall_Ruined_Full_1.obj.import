@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wall_Ruined_Full_1.obj-f6db8e91fe9c00c2a24881597cd6b189.mesh"
+
+[deps]
+
+files=[ "res://.import/Wall_Ruined_Full_1.obj-f6db8e91fe9c00c2a24881597cd6b189.mesh" ]
+
+source_file="res://assets/temple/Wall_Ruined_Full_1.obj"
+dest_files=[ "res://.import/Wall_Ruined_Full_1.obj-f6db8e91fe9c00c2a24881597cd6b189.mesh", "res://.import/Wall_Ruined_Full_1.obj-f6db8e91fe9c00c2a24881597cd6b189.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

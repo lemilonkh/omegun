@@ -1,0 +1,77 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://materials/textures/Bronze_01_2K_Base_Color.png" type="Texture" id=1]
+[ext_resource path="res://materials/textures/Bronze_01_2K_Metallic.png" type="Texture" id=2]
+[ext_resource path="res://materials/textures/Bronze_01_2K_Normal.png" type="Texture" id=3]
+[ext_resource path="res://materials/textures/Bronze_01_2K_Roughness.png" type="Texture" id=4]
+[ext_resource path="res://materials/seaside_rocks.tres" type="Material" id=5]
+[ext_resource path="res://assets/nature/stone_tall2.obj" type="ArrayMesh" id=6]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_texture = ExtResource( 1 )
+metallic_texture = ExtResource( 2 )
+roughness_texture = ExtResource( 4 )
+normal_enabled = true
+normal_scale = 1.0
+normal_texture = ExtResource( 3 )
+uv1_scale = Vector3( 0.5, 0.5, 0.5 )
+
+[sub_resource type="Animation" id=2]
+resource_name = "move"
+length = 2.0
+loop = true
+tracks/0/type = "bezier"
+tracks/0/path = NodePath("CSGCombiner/CSGSphere:translation:z")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"points": PoolRealArray( -1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, -1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1, 2 )
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("CSGCombiner/CSGBox:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1, 2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 0, 180 ), Vector3( 0, 0, 360 ) ]
+}
+
+[node name="Spatial" type="Spatial"]
+
+[node name="CSGCombiner" type="CSGCombiner" parent="."]
+
+[node name="CSGBox" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( -0.146124, -0.989266, 0, 0.989266, -0.146124, 0, 0, 0, 1, 0, 0, 0 )
+material = SubResource( 1 )
+
+[node name="CSGSphere" type="CSGSphere" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.758, 0.124289 )
+operation = 2
+snap = 1.0
+radial_segments = 35
+rings = 35
+material = ExtResource( 5 )
+
+[node name="CSGMesh" type="CSGMesh" parent="CSGCombiner"]
+transform = Transform( -4.37114e-09, 0.1, 0, -0.1, -4.37114e-09, 0, 0, 0, 0.1, 0.965085, 0, 0 )
+visible = false
+operation = 2
+mesh = ExtResource( 6 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "move"
+anims/move = SubResource( 2 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.880005, 0.474965, 0, -0.474965, 0.880005, 0, 2.68175, 5.87763 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -0.387351, 0.921932, 0, -0.921932, -0.387351, 0, 0, -6.79295 )
+

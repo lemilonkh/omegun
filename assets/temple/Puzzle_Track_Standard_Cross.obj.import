@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Track_Standard_Cross.obj-d82d2f3f42b99df56893d3cf338a30ca.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Track_Standard_Cross.obj-d82d2f3f42b99df56893d3cf338a30ca.mesh" ]
+
+source_file="res://assets/temple/Puzzle_Track_Standard_Cross.obj"
+dest_files=[ "res://.import/Puzzle_Track_Standard_Cross.obj-d82d2f3f42b99df56893d3cf338a30ca.mesh", "res://.import/Puzzle_Track_Standard_Cross.obj-d82d2f3f42b99df56893d3cf338a30ca.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

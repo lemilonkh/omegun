@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Structure_Fuselage_Straight_Windows.obj-612200d134d7a09203dc9e4104fe1503.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Structure_Fuselage_Straight_Windows.obj-612200d134d7a09203dc9e4104fe1503.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Structure_Fuselage_Straight_Windows.obj"
+dest_files=[ "res://.import/Spacestation_Structure_Fuselage_Straight_Windows.obj-612200d134d7a09203dc9e4104fe1503.mesh", "res://.import/Spacestation_Structure_Fuselage_Straight_Windows.obj-612200d134d7a09203dc9e4104fe1503.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

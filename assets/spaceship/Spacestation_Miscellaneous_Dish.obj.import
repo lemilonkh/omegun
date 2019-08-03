@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Miscellaneous_Dish.obj-e3a2ab3b09c5f85000d8d82767573ae5.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Miscellaneous_Dish.obj-e3a2ab3b09c5f85000d8d82767573ae5.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Miscellaneous_Dish.obj"
+dest_files=[ "res://.import/Spacestation_Miscellaneous_Dish.obj-e3a2ab3b09c5f85000d8d82767573ae5.mesh", "res://.import/Spacestation_Miscellaneous_Dish.obj-e3a2ab3b09c5f85000d8d82767573ae5.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

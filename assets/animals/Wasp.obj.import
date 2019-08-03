@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wasp.obj-cf9d3bc05f1e3edb5f97d22cf327ee59.mesh"
+
+[deps]
+
+files=[ "res://.import/Wasp.obj-cf9d3bc05f1e3edb5f97d22cf327ee59.mesh" ]
+
+source_file="res://assets/animals/Wasp.obj"
+dest_files=[ "res://.import/Wasp.obj-cf9d3bc05f1e3edb5f97d22cf327ee59.mesh", "res://.import/Wasp.obj-cf9d3bc05f1e3edb5f97d22cf327ee59.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

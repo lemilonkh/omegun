@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Weapon_Cannon.obj-75262edcf23284e9392660940f432c27.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Weapon_Cannon.obj-75262edcf23284e9392660940f432c27.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Weapon_Cannon.obj"
+dest_files=[ "res://.import/Spacestation_Weapon_Cannon.obj-75262edcf23284e9392660940f432c27.mesh", "res://.import/Spacestation_Weapon_Cannon.obj-75262edcf23284e9392660940f432c27.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,15 @@
+[gd_resource type="Environment" load_steps=3 format=2]
+
+[sub_resource type="StreamTexture" id=1]
+flags = 4
+load_path = "res://.import/crab_nebula_hdr.png-33ba7632a0f35555538229ed4be69c12.stex"
+
+[sub_resource type="PanoramaSky" id=2]
+panorama = SubResource( 1 )
+
+[resource]
+background_mode = 2
+background_sky = SubResource( 2 )
+background_color = Color( 0, 0.882812, 1, 1 )
+ambient_light_color = Color( 1, 1, 1, 1 )
+ambient_light_sky_contribution = 0.0

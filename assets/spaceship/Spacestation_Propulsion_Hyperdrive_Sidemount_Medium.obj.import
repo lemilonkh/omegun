@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Propulsion_Hyperdrive_Sidemount_Medium.obj-a60a9935f2f8dcf50a490922b27ae12b.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Propulsion_Hyperdrive_Sidemount_Medium.obj-a60a9935f2f8dcf50a490922b27ae12b.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Propulsion_Hyperdrive_Sidemount_Medium.obj"
+dest_files=[ "res://.import/Spacestation_Propulsion_Hyperdrive_Sidemount_Medium.obj-a60a9935f2f8dcf50a490922b27ae12b.mesh", "res://.import/Spacestation_Propulsion_Hyperdrive_Sidemount_Medium.obj-a60a9935f2f8dcf50a490922b27ae12b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Wall_Conduit_Emitter_Straight.obj-91fa6bbc3d97ec1108873009311f558b.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Wall_Conduit_Emitter_Straight.obj-91fa6bbc3d97ec1108873009311f558b.mesh" ]
+
+source_file="res://assets/temple/Puzzle_Wall_Conduit_Emitter_Straight.obj"
+dest_files=[ "res://.import/Puzzle_Wall_Conduit_Emitter_Straight.obj-91fa6bbc3d97ec1108873009311f558b.mesh", "res://.import/Puzzle_Wall_Conduit_Emitter_Straight.obj-91fa6bbc3d97ec1108873009311f558b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

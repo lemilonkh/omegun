@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Structure_Wing_Thin_Winglet_Upward.obj-537a619712ff4c5391b30ce5e766edca.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Structure_Wing_Thin_Winglet_Upward.obj-537a619712ff4c5391b30ce5e766edca.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Structure_Wing_Thin_Winglet_Upward.obj"
+dest_files=[ "res://.import/Spacestation_Structure_Wing_Thin_Winglet_Upward.obj-537a619712ff4c5391b30ce5e766edca.mesh", "res://.import/Spacestation_Structure_Wing_Thin_Winglet_Upward.obj-537a619712ff4c5391b30ce5e766edca.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Puzzle_Wall_Conduit_Indicator_1.obj-34d3b45fa3a957aeb0256e866f8a92be.mesh"
+
+[deps]
+
+files=[ "res://.import/Puzzle_Wall_Conduit_Indicator_1.obj-34d3b45fa3a957aeb0256e866f8a92be.mesh" ]
+
+source_file="res://assets/temple/Puzzle_Wall_Conduit_Indicator_1.obj"
+dest_files=[ "res://.import/Puzzle_Wall_Conduit_Indicator_1.obj-34d3b45fa3a957aeb0256e866f8a92be.mesh", "res://.import/Puzzle_Wall_Conduit_Indicator_1.obj-34d3b45fa3a957aeb0256e866f8a92be.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

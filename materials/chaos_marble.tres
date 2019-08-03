@@ -1,0 +1,66 @@
+[gd_resource type="ShaderMaterial" load_steps=6 format=2]
+
+[sub_resource type="Shader" id=1]
+code = "shader_type spatial;
+render_mode unshaded;
+
+uniform sampler2D noise_texture;
+uniform sampler2D displacement_texture;
+uniform vec4 top_light_color: hint_color;
+uniform vec4 top_dark_color: hint_color;
+uniform vec4 bottom_light_color: hint_color;
+uniform vec4 bottom_dark_color: hint_color;
+uniform float displacement_amount = 0.02;
+uniform float bottom_foam_threshold: hint_range(0, 1) = 0.48;
+uniform float speed = 0.25;
+uniform float color_count: hint_range(1, 100) = 5;
+
+void fragment() {
+	vec2 displacement = texture(displacement_texture, UV - TIME / 8.0).rg;
+	displacement = ((displacement * 2.0) - 1.0) * displacement_amount;
+	
+	float noise = texture(noise_texture, vec2(UV.x, UV.y / 3.0 - TIME / 6.0) + displacement).x;
+	noise = floor(noise * color_count) / color_count;
+	
+	vec4 color = mix(mix(top_dark_color, bottom_dark_color, UV.y), mix(top_light_color, bottom_light_color, UV.y), noise);
+	color = mix(vec4(1.0), color, step(UV.y + displacement.y, bottom_foam_threshold));
+	
+	ALBEDO = color.rgb;
+}"
+
+[sub_resource type="OpenSimplexNoise" id=2]
+seed = 8
+period = 171.2
+persistence = 0.828
+lacunarity = 3.08
+
+[sub_resource type="NoiseTexture" id=3]
+seamless = true
+as_normalmap = true
+bump_strength = 25.9
+noise = SubResource( 2 )
+
+[sub_resource type="OpenSimplexNoise" id=4]
+seed = 5
+octaves = 6
+persistence = 0.37
+lacunarity = 4.0
+
+[sub_resource type="NoiseTexture" id=5]
+seamless = true
+bump_strength = 29.0
+noise = SubResource( 4 )
+
+[resource]
+shader = SubResource( 1 )
+shader_param/top_light_color = Color( 0.254902, 1, 0.756863, 1 )
+shader_param/top_dark_color = Color( 0, 0.6, 0.894118, 1 )
+shader_param/bottom_light_color = Color( 1, 0.560784, 0, 1 )
+shader_param/bottom_dark_color = Color( 1, 0, 0, 1 )
+shader_param/displacement_amount = 0.02
+shader_param/bottom_foam_threshold = 1.0
+shader_param/speed = 4.0
+shader_param/color_count = 41.0
+shader_param/noise_texture = SubResource( 5 )
+shader_param/displacement_texture = SubResource( 3 )
+

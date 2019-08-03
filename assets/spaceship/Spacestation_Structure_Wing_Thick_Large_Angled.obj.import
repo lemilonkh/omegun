@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Structure_Wing_Thick_Large_Angled.obj-f86f299dbacd8d19645dd4d39232e317.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Structure_Wing_Thick_Large_Angled.obj-f86f299dbacd8d19645dd4d39232e317.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Structure_Wing_Thick_Large_Angled.obj"
+dest_files=[ "res://.import/Spacestation_Structure_Wing_Thick_Large_Angled.obj-f86f299dbacd8d19645dd4d39232e317.mesh", "res://.import/Spacestation_Structure_Wing_Thick_Large_Angled.obj-f86f299dbacd8d19645dd4d39232e317.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

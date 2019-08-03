@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tree_thin_dark.obj-e01e37aaa92b22c6a4d825810d1b3b9e.mesh"
+
+[deps]
+
+files=[ "res://.import/tree_thin_dark.obj-e01e37aaa92b22c6a4d825810d1b3b9e.mesh" ]
+
+source_file="res://assets/nature/tree_thin_dark.obj"
+dest_files=[ "res://.import/tree_thin_dark.obj-e01e37aaa92b22c6a4d825810d1b3b9e.mesh", "res://.import/tree_thin_dark.obj-e01e37aaa92b22c6a4d825810d1b3b9e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spacestation_Structure_Habitat.obj-4ae4318c8f0aa65558196826c3f48f0c.mesh"
+
+[deps]
+
+files=[ "res://.import/Spacestation_Structure_Habitat.obj-4ae4318c8f0aa65558196826c3f48f0c.mesh" ]
+
+source_file="res://assets/spaceship/Spacestation_Structure_Habitat.obj"
+dest_files=[ "res://.import/Spacestation_Structure_Habitat.obj-4ae4318c8f0aa65558196826c3f48f0c.mesh", "res://.import/Spacestation_Structure_Habitat.obj-4ae4318c8f0aa65558196826c3f48f0c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

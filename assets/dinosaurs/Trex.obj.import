@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Trex.obj-39ec4e543c3c2a55c37485099d84d234.mesh"
+
+[deps]
+
+files=[ "res://.import/Trex.obj-39ec4e543c3c2a55c37485099d84d234.mesh" ]
+
+source_file="res://assets/dinosaurs/Trex.obj"
+dest_files=[ "res://.import/Trex.obj-39ec4e543c3c2a55c37485099d84d234.mesh", "res://.import/Trex.obj-39ec4e543c3c2a55c37485099d84d234.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
