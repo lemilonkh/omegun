@@ -15,7 +15,7 @@ onready var head = get_node("head_bone")
 onready var shield = get_node("shield")
 onready var laser = get_node("head_bone/laser")
 onready var cards = get_node("cards")
-onready var weapon = get_node("weapon/scythe")
+onready var weapon = get_node("head_bone/weapon/scythe")
 
 var velocity = Vector3()
 var aim_angle = 0

@@ -52,3 +52,7 @@ func _on_mouse_entered():
 
 func _on_mouse_exited():
 	light.light_energy = 0
+
+func _on_animation_finished(anim_name):
+	if anim_name == "attack":
+		animation.play("idle")
