@@ -21,7 +21,6 @@ var aim_angle = 0
 
 func _ready():
 	animation.play("reload")
-	
 
 func _physics_process(delta):
 	var transform = camera.get_transform()
@@ -35,6 +34,12 @@ func _physics_process(delta):
 		direction -= transform.basis[0]
 	if Input.is_action_pressed("right"):
 		direction += transform.basis[0]
+	
+	# charge/ perform attack
+	if Input.is_action_pressed("attack"):
+		laser.show()
+	else:
+		shield.show()
 
 	direction.y = 0
 	direction = direction.normalized()
@@ -67,49 +72,9 @@ func _physics_process(delta):
 	# fix shield performing 360 degree rotation when crossing over 0 angle (x axis)
 	var shield_angle = geometry_utils.lerp_angle(shield.get_rotation().y, aim_angle, delta * 3)
 	shield.set_rotation(Vector3(0, shield_angle, 0))
-	
-	highlight_selected_card()
 
-func get_selected_card():
-	var normalized_angle = aim_angle
-	
-	if normalized_angle < 0:
-		normalized_angle += 2 * PI
-	
-	var card_index = int(floor((normalized_angle + PI / 4) / (PI / 2))) % 4
-	return card_index
-
-func highlight_selected_card():
-	var selected_card = cards.get_child(get_selected_card())
-	
-	for card in cards.get_children():
-		card.set_opacity(0.5)
-	
-	selected_card.set_opacity(1)
-
-func play_card():
-	var card = get_selected_card()
-	var selected_card = cards.get_child(card)
-	
-	if !selected_card.visible:
-		return
-	
-	selected_card.set_visible(false)
-	
-	if card == 0:
-		shield.show()
-	if card == 1:
-		laser.show()
-		animation.play("damage")
-	if card == 2:
-		animation.play("reload")
-	if card == 3:
-		teleport()
-
-func redraw_cards():
-	# TODO randomize order, pull from deck when behavior pattern is implemented
-	for card in cards.get_children():
-		card.set_visible(true)
+func take_damage():
+	animation.play("damage")
 
 func teleport():
 	var direction = Vector3(1, 0, 0).rotated(Vector3(0, 1, 0), aim_angle)
@@ -124,8 +89,6 @@ func _input(event):
 		bullet_instance.set_translation(get_translation() - Vector3(0, 0.5, 0))
 		get_tree().get_root().add_child(bullet_instance)
 		animation.play("shoot")
-		
-		play_card()
 	
 	if event.is_action_pressed("reload"):
 		animation.play("reload")
