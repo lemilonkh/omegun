@@ -116,15 +116,17 @@ func add_room(recursionlvl, list_of_rooms, room_id):
 					room_successfully_placed = true
 
 func _init():
-	#set_translation(Vector3(-width / 2, 0, -height / 2))
-	preload("res://scenes/enemies/frog.tscn")
+	var frog = preload("res://scenes/enemies/frog.tscn") # TODO use this?
 	var recursion = 8
-	var list_of_rooms = [[-3,-3,3,3]] # CONTAIN THE COORDINATES OF ALL ROOMS IN A FORMAT [[xmin, zmin, xmax, zmax],[...],[...],...]
+	var room_size = 20
+	
+	# CONTAINS THE COORDINATES OF ALL ROOMS IN A FORMAT [[xmin, zmin, xmax, zmax],[...],[...],...]
+	var list_of_rooms = [[-room_size,-room_size,room_size,room_size]]
 	add_room(recursion , list_of_rooms, 0)
-	#print( collision_test(0,10, -10, 0, -5, 5, 5, 0))
 	var item = 1
 	var y = 0
-	print(' ')
+
+	# floors
 	for i in range(list_of_rooms.size()):
 		print(list_of_rooms[i])
 		for x in range(list_of_rooms[i][0], list_of_rooms[i][2]):
@@ -133,32 +135,10 @@ func _init():
 				
 				if y > 0:
 					set_cell_item(x, 0, z, 1, 0)
-	#walls
+	
+	# walls
 	for i in range(list_of_rooms.size()):
-		
 		for x in range(list_of_rooms[i][0], list_of_rooms[i][2]):
 			for z in range( list_of_rooms[i][1], list_of_rooms[i][3]):
 				if has_neighbor(x, y, z):
 					set_cell_item(x, y + 1, z, 1)
-	for i in range(list_of_rooms.size()):
-		
-	#print(list_of_rooms.size())
-		pass
-#	for x in range(0, width):
-#		for z in range(0, height):
-#			var y = 0
-#			var item = 1
-#			
-#			if x == 0 || x == width-1 || z == 0 || z == height - 1:
-#				y = 1
-#				item = 0
-#			
-#			if x % 4 == 1 && z % 4 == 1 && randi() % 4 != 0:
-#				y = 1
-#				item = 0
-#			
-#			# make sure there's always ground below all walls
-#			if y > 0:
-#				set_cell_item(x, 0, z, 1, 0)
-#			
-#			set_cell_item(x, y, z, item, 0)
