@@ -139,7 +139,7 @@ func _init():
 	for i in range(list_of_rooms.size()):
 		
 	#print(list_of_rooms.size())
-
+		pass
 #	for x in range(0, width):
 #		for z in range(0, height):
 #			var y = 0
