@@ -122,7 +122,7 @@ func add_room(recursionlvl, list_of_rooms, room_id):
 					#print("fail")
 					room_successfully_placed = true
 
-func _init():
+func _ready():
 	# CONTAINS THE COORDINATES OF ALL ROOMS IN A FORMAT [[xmin, zmin, xmax, zmax],[...],[...],...]
 	var list_of_rooms = [[-start_room_size, -start_room_size, start_room_size, start_room_size]]
 	add_room(recursion_depth, list_of_rooms, 0)
@@ -143,7 +143,7 @@ func _init():
 				if y > 0:
 					set_cell_item(x, 0, z, 1, 0)
 	
-	# walls
+	# walls and enemies
 	for i in range(list_of_rooms.size()):
 		var x_min = list_of_rooms[i][0]
 		var z_min = list_of_rooms[i][1]
@@ -154,3 +154,11 @@ func _init():
 			for z in range(z_min, z_max):
 				if has_neighbor(x, y, z):
 					set_cell_item(x, y + 1, z, 1)
+		
+		var enemy_instance = enemy.instance()
+		enemy_root.add_child(enemy_instance)
+		
+		var center_x = (x_min + x_max) / 2.0
+		var center_z = (z_min + z_max) / 2.0
+		
+		enemy_instance.set_translation(Vector3(center_x, spawn_height, center_z))
