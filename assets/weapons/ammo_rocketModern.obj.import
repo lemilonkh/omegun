@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ammo_rocketModern.obj-78fb5d01c9856f74fdcd1c83fd2e9d8b.mesh"
+
+[deps]
+
+files=[ "res://.import/ammo_rocketModern.obj-78fb5d01c9856f74fdcd1c83fd2e9d8b.mesh" ]
+
+source_file="res://assets/weapons/ammo_rocketModern.obj"
+dest_files=[ "res://.import/ammo_rocketModern.obj-78fb5d01c9856f74fdcd1c83fd2e9d8b.mesh", "res://.import/ammo_rocketModern.obj-78fb5d01c9856f74fdcd1c83fd2e9d8b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 0.015, 0.015, 0.015 )
+optimize_mesh=true
