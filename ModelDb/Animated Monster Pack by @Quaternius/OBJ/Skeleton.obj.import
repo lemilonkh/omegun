@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Skeleton.obj-285d48eb3179653fe8d9c40107908043.mesh"
+
+[deps]
+
+files=[ "res://.import/Skeleton.obj-285d48eb3179653fe8d9c40107908043.mesh" ]
+
+source_file="res://ModelDb/Animated Monster Pack by @Quaternius/OBJ/Skeleton.obj"
+dest_files=[ "res://.import/Skeleton.obj-285d48eb3179653fe8d9c40107908043.mesh", "res://.import/Skeleton.obj-285d48eb3179653fe8d9c40107908043.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

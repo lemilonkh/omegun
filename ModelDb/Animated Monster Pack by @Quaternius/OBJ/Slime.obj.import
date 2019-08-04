@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Slime.obj-d8abcf60dcbf9c84368b8241de8f469f.mesh"
+
+[deps]
+
+files=[ "res://.import/Slime.obj-d8abcf60dcbf9c84368b8241de8f469f.mesh" ]
+
+source_file="res://ModelDb/Animated Monster Pack by @Quaternius/OBJ/Slime.obj"
+dest_files=[ "res://.import/Slime.obj-d8abcf60dcbf9c84368b8241de8f469f.mesh", "res://.import/Slime.obj-d8abcf60dcbf9c84368b8241de8f469f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

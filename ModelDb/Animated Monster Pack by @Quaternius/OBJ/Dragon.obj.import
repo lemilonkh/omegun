@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Dragon.obj-ea09a743824ced9afd2f0e7c818efd60.mesh"
+
+[deps]
+
+files=[ "res://.import/Dragon.obj-ea09a743824ced9afd2f0e7c818efd60.mesh" ]
+
+source_file="res://ModelDb/Animated Monster Pack by @Quaternius/OBJ/Dragon.obj"
+dest_files=[ "res://.import/Dragon.obj-ea09a743824ced9afd2f0e7c818efd60.mesh", "res://.import/Dragon.obj-ea09a743824ced9afd2f0e7c818efd60.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

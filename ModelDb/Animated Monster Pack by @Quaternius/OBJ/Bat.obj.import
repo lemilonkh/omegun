@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Bat.obj-a14b83635f0cad7c1d03b9811c81ac58.mesh"
+
+[deps]
+
+files=[ "res://.import/Bat.obj-a14b83635f0cad7c1d03b9811c81ac58.mesh" ]
+
+source_file="res://ModelDb/Animated Monster Pack by @Quaternius/OBJ/Bat.obj"
+dest_files=[ "res://.import/Bat.obj-a14b83635f0cad7c1d03b9811c81ac58.mesh", "res://.import/Bat.obj-a14b83635f0cad7c1d03b9811c81ac58.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
