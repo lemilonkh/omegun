@@ -33,11 +33,23 @@ func get_damage():
 	var force_scale = clamp(force.length() / max_damage_force, 0, 1)
 	return force_scale * damage
 
+func merge_body(body):
+	if body.has_method("is_attached") and body.is_attached():
+		print("Body is already attached!", body)
+		return
+	
+	if body.has_method("attach"):
+		body.attach(self)
+	
+	add_child(body)
+
 func _on_body_entered(body: PhysicsBody):
 	print("Body entered", body)
 	var damage = get_damage()
 	
-	if body.has_method("take_damage"):
+	if body.is_in_group("sticky"):
+		merge_body(body)
+	elif body.has_method("take_damage"):
 		print("Body taking damage: ", damage)
 		body.take_damage(damage, self)
 
