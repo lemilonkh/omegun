@@ -15,6 +15,7 @@ onready var head = get_node("head_bone")
 onready var shield = get_node("shield")
 onready var laser = get_node("head_bone/laser")
 onready var cards = get_node("cards")
+onready var weapon = get_node("weapon/scythe")
 
 var velocity = Vector3()
 var aim_angle = 0
@@ -84,11 +85,12 @@ func teleport():
 
 func _input(event):
 	if event.is_action_pressed("attack"):
-		var bullet_instance = bullet.duplicate()
-		bullet_instance.set_rotation(Vector3(0, aim_angle, 0))
-		bullet_instance.set_translation(get_translation() - Vector3(0, 0.5, 0))
-		get_tree().get_root().add_child(bullet_instance)
+		#var bullet_instance = bullet.duplicate()
+		#bullet_instance.set_rotation(Vector3(0, aim_angle, 0))
+		#bullet_instance.set_translation(get_translation() - Vector3(0, 0.5, 0))
+		#get_tree().get_root().add_child(bullet_instance)
 		animation.play("shoot")
+		weapon.attack()
 	
 	if event.is_action_pressed("reload"):
 		animation.play("reload")
