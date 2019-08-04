@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Freeway Curve 2.dae-23a8a3c705c3c27d9efd7a760b5cd11e.scn"
+path="res://.import/Freeway Curve 2.dae-cc59851cc746535935d282bda456b5ab.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Freeway Curve 2.dae"
-dest_files=[ "res://.import/Freeway Curve 2.dae-23a8a3c705c3c27d9efd7a760b5cd11e.scn" ]
+source_file="res://assets/roads/Models/Freeway Curve 2.dae"
+dest_files=[ "res://.import/Freeway Curve 2.dae-cc59851cc746535935d282bda456b5ab.scn" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/SingleLane Cross SingleLane.dae-e4dd2f6fe7481bab0e47cf69e9767ebb.scn"
+path="res://.import/SingleLane Cross SingleLane.dae-28e49cd2bb4ea3b2a0e7bc3178f6b7dd.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/SingleLane Cross SingleLane.dae"
-dest_files=[ "res://.import/SingleLane Cross SingleLane.dae-e4dd2f6fe7481bab0e47cf69e9767ebb.scn" ]
+source_file="res://assets/roads/Models/SingleLane Cross SingleLane.dae"
+dest_files=[ "res://.import/SingleLane Cross SingleLane.dae-28e49cd2bb4ea3b2a0e7bc3178f6b7dd.scn" ]
 
 [params]
 

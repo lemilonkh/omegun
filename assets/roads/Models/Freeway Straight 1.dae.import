@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Freeway Straight 1.dae-9c1d769d708f041bfd7ae4a39efcc1f7.scn"
+path="res://.import/Freeway Straight 1.dae-c4911af198de956d178ef4bc13214ff3.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Freeway Straight 1.dae"
-dest_files=[ "res://.import/Freeway Straight 1.dae-9c1d769d708f041bfd7ae4a39efcc1f7.scn" ]
+source_file="res://assets/roads/Models/Freeway Straight 1.dae"
+dest_files=[ "res://.import/Freeway Straight 1.dae-c4911af198de956d178ef4bc13214ff3.scn" ]
 
 [params]
 

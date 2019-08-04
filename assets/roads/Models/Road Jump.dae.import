@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Road Jump.dae-21de5badc7a43c2f02a2d2850f9ce110.scn"
+path="res://.import/Road Jump.dae-436f3c6e5f8551a001c6d5ea115abdf5.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Road Jump.dae"
-dest_files=[ "res://.import/Road Jump.dae-21de5badc7a43c2f02a2d2850f9ce110.scn" ]
+source_file="res://assets/roads/Models/Road Jump.dae"
+dest_files=[ "res://.import/Road Jump.dae-436f3c6e5f8551a001c6d5ea115abdf5.scn" ]
 
 [params]
 

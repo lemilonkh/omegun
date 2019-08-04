@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/SingleLane S-Curve.dae-9522f6eaa69eb5d96fcdaa2e2c12d23b.scn"
+path="res://.import/SingleLane S-Curve.dae-b46e4ef2b672f848233299e748ce467e.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/SingleLane S-Curve.dae"
-dest_files=[ "res://.import/SingleLane S-Curve.dae-9522f6eaa69eb5d96fcdaa2e2c12d23b.scn" ]
+source_file="res://assets/roads/Models/SingleLane S-Curve.dae"
+dest_files=[ "res://.import/SingleLane S-Curve.dae-b46e4ef2b672f848233299e748ce467e.scn" ]
 
 [params]
 

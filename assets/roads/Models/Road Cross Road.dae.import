@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Road Cross Road.dae-66fb8de76e0bbdeaf592f8e404e1f31c.scn"
+path="res://.import/Road Cross Road.dae-10701fac6fa25fd42a38a98a060ff181.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Road Cross Road.dae"
-dest_files=[ "res://.import/Road Cross Road.dae-66fb8de76e0bbdeaf592f8e404e1f31c.scn" ]
+source_file="res://assets/roads/Models/Road Cross Road.dae"
+dest_files=[ "res://.import/Road Cross Road.dae-10701fac6fa25fd42a38a98a060ff181.scn" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Car 2.dae-b81094b04f37e639dbb7327b123c6cb2.scn"
+path="res://.import/Car 2.dae-a4b93c0664bd337e909759baf24f902c.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Car 2.dae"
-dest_files=[ "res://.import/Car 2.dae-b81094b04f37e639dbb7327b123c6cb2.scn" ]
+source_file="res://assets/roads/Models/Car 2.dae"
+dest_files=[ "res://.import/Car 2.dae-a4b93c0664bd337e909759baf24f902c.scn" ]
 
 [params]
 

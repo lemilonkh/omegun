@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Highway Cross Highway.dae-e20894cd3f2a27a827041ec38cd63e59.scn"
+path="res://.import/Highway Cross Highway.dae-930d8b61943dd57a4f9b7f0ca66f5c8a.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Highway Cross Highway.dae"
-dest_files=[ "res://.import/Highway Cross Highway.dae-e20894cd3f2a27a827041ec38cd63e59.scn" ]
+source_file="res://assets/roads/Models/Highway Cross Highway.dae"
+dest_files=[ "res://.import/Highway Cross Highway.dae-930d8b61943dd57a4f9b7f0ca66f5c8a.scn" ]
 
 [params]
 

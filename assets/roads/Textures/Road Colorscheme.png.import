@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Road Colorscheme.png-a510afee3499139bdfe1e87867fd39cf.stex"
+path="res://.import/Road Colorscheme.png-419e2277803aa70ea3f2632565f1844d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/melee_weapons/Textures/Road Colorscheme.png"
-dest_files=[ "res://.import/Road Colorscheme.png-a510afee3499139bdfe1e87867fd39cf.stex" ]
+source_file="res://assets/roads/Textures/Road Colorscheme.png"
+dest_files=[ "res://.import/Road Colorscheme.png-419e2277803aa70ea3f2632565f1844d.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Road Looping.dae-891d7ccc74f16d62c59e41d25387ef3c.scn"
+path="res://.import/Road Looping.dae-10998d0bcb3d7a27d40e0af8f589f786.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Road Looping.dae"
-dest_files=[ "res://.import/Road Looping.dae-891d7ccc74f16d62c59e41d25387ef3c.scn" ]
+source_file="res://assets/roads/Models/Road Looping.dae"
+dest_files=[ "res://.import/Road Looping.dae-10998d0bcb3d7a27d40e0af8f589f786.scn" ]
 
 [params]
 

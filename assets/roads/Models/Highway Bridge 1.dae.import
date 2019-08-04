@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Highway Bridge 1.dae-c024213e2b0283f79a37b7718e3fa179.scn"
+path="res://.import/Highway Bridge 1.dae-42ec7036833583f657192b773543525c.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Highway Bridge 1.dae"
-dest_files=[ "res://.import/Highway Bridge 1.dae-c024213e2b0283f79a37b7718e3fa179.scn" ]
+source_file="res://assets/roads/Models/Highway Bridge 1.dae"
+dest_files=[ "res://.import/Highway Bridge 1.dae-42ec7036833583f657192b773543525c.scn" ]
 
 [params]
 

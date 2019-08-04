@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Tunnel Straight 1.dae-d74a64b698e5c775a9fa36aa595d95af.scn"
+path="res://.import/Tunnel Straight 1.dae-98aa40ce61824f7e1801587c785e65fc.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Tunnel Straight 1.dae"
-dest_files=[ "res://.import/Tunnel Straight 1.dae-d74a64b698e5c775a9fa36aa595d95af.scn" ]
+source_file="res://assets/roads/Models/Tunnel Straight 1.dae"
+dest_files=[ "res://.import/Tunnel Straight 1.dae-98aa40ce61824f7e1801587c785e65fc.scn" ]
 
 [params]
 

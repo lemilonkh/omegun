@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Highway Join Highway 1.dae-27961134722f21f0af487094db8b5161.scn"
+path="res://.import/Highway Join Highway 1.dae-f61d87c9c5edb7ddaefe9c630bd0443e.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Highway Join Highway 1.dae"
-dest_files=[ "res://.import/Highway Join Highway 1.dae-27961134722f21f0af487094db8b5161.scn" ]
+source_file="res://assets/roads/Models/Highway Join Highway 1.dae"
+dest_files=[ "res://.import/Highway Join Highway 1.dae-f61d87c9c5edb7ddaefe9c630bd0443e.scn" ]
 
 [params]
 

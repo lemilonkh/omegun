@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Highway S-Curve.dae-461f6d983d82b7883d28dfce43134a75.scn"
+path="res://.import/Highway S-Curve.dae-ac40d6ba1395aa2382eadd8aca0b9cfb.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Highway S-Curve.dae"
-dest_files=[ "res://.import/Highway S-Curve.dae-461f6d983d82b7883d28dfce43134a75.scn" ]
+source_file="res://assets/roads/Models/Highway S-Curve.dae"
+dest_files=[ "res://.import/Highway S-Curve.dae-ac40d6ba1395aa2382eadd8aca0b9cfb.scn" ]
 
 [params]
 

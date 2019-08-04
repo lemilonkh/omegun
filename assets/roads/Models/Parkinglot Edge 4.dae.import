@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Parkinglot Edge 4.dae-b8c5f8eee6272361ca386f132f860f52.scn"
+path="res://.import/Parkinglot Edge 4.dae-15382f987e50fca55c2e3c0b75834503.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Parkinglot Edge 4.dae"
-dest_files=[ "res://.import/Parkinglot Edge 4.dae-b8c5f8eee6272361ca386f132f860f52.scn" ]
+source_file="res://assets/roads/Models/Parkinglot Edge 4.dae"
+dest_files=[ "res://.import/Parkinglot Edge 4.dae-15382f987e50fca55c2e3c0b75834503.scn" ]
 
 [params]
 

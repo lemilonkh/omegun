@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Freeway Join Freeway 2.dae-90053e73deb4020b139d9936750715f2.scn"
+path="res://.import/Freeway Join Freeway 2.dae-35b3b8bd8cfce107973915d66810eb6d.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Freeway Join Freeway 2.dae"
-dest_files=[ "res://.import/Freeway Join Freeway 2.dae-90053e73deb4020b139d9936750715f2.scn" ]
+source_file="res://assets/roads/Models/Freeway Join Freeway 2.dae"
+dest_files=[ "res://.import/Freeway Join Freeway 2.dae-35b3b8bd8cfce107973915d66810eb6d.scn" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Parkinglot Corner 1.dae-42961df9b57fc678d84938848ce31db1.scn"
+path="res://.import/Parkinglot Corner 1.dae-f638fff9ed525ab04fecc5ac3f92582b.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Parkinglot Corner 1.dae"
-dest_files=[ "res://.import/Parkinglot Corner 1.dae-42961df9b57fc678d84938848ce31db1.scn" ]
+source_file="res://assets/roads/Models/Parkinglot Corner 1.dae"
+dest_files=[ "res://.import/Parkinglot Corner 1.dae-f638fff9ed525ab04fecc5ac3f92582b.scn" ]
 
 [params]
 

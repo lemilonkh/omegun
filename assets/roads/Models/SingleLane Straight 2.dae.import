@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/SingleLane Straight 2.dae-26a7f501f0e4dc20fb31a979720d580b.scn"
+path="res://.import/SingleLane Straight 2.dae-714ca10f261727917ef99de9bef67289.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/SingleLane Straight 2.dae"
-dest_files=[ "res://.import/SingleLane Straight 2.dae-26a7f501f0e4dc20fb31a979720d580b.scn" ]
+source_file="res://assets/roads/Models/SingleLane Straight 2.dae"
+dest_files=[ "res://.import/SingleLane Straight 2.dae-714ca10f261727917ef99de9bef67289.scn" ]
 
 [params]
 

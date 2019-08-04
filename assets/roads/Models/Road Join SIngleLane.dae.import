@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Road Join SIngleLane.dae-a26a8cd187d89ed10274c5bf1eb136ed.scn"
+path="res://.import/Road Join SIngleLane.dae-ec7cd6736b8748eb56d2956b5f07fa9f.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Road Join SIngleLane.dae"
-dest_files=[ "res://.import/Road Join SIngleLane.dae-a26a8cd187d89ed10274c5bf1eb136ed.scn" ]
+source_file="res://assets/roads/Models/Road Join SIngleLane.dae"
+dest_files=[ "res://.import/Road Join SIngleLane.dae-ec7cd6736b8748eb56d2956b5f07fa9f.scn" ]
 
 [params]
 

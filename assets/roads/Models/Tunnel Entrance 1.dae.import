@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Tunnel Entrance 1.dae-ed291df18902fdf31471510f433b3a01.scn"
+path="res://.import/Tunnel Entrance 1.dae-f345096be08eb9f5e509c32139294327.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Tunnel Entrance 1.dae"
-dest_files=[ "res://.import/Tunnel Entrance 1.dae-ed291df18902fdf31471510f433b3a01.scn" ]
+source_file="res://assets/roads/Models/Tunnel Entrance 1.dae"
+dest_files=[ "res://.import/Tunnel Entrance 1.dae-f345096be08eb9f5e509c32139294327.scn" ]
 
 [params]
 

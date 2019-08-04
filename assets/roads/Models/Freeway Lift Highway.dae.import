@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Freeway Lift Highway.dae-ca7faa16a0c3d6b16b39a33cbc9b0c63.scn"
+path="res://.import/Freeway Lift Highway.dae-eca9e204935507f045240ad05292d0d4.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Freeway Lift Highway.dae"
-dest_files=[ "res://.import/Freeway Lift Highway.dae-ca7faa16a0c3d6b16b39a33cbc9b0c63.scn" ]
+source_file="res://assets/roads/Models/Freeway Lift Highway.dae"
+dest_files=[ "res://.import/Freeway Lift Highway.dae-eca9e204935507f045240ad05292d0d4.scn" ]
 
 [params]
 

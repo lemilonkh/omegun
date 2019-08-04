@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Road Curve.dae-9f8b657987a98c610c0361233b55dcd2.scn"
+path="res://.import/Road Curve.dae-91c11f0700864140628d2689a1624445.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Road Curve.dae"
-dest_files=[ "res://.import/Road Curve.dae-9f8b657987a98c610c0361233b55dcd2.scn" ]
+source_file="res://assets/roads/Models/Road Curve.dae"
+dest_files=[ "res://.import/Road Curve.dae-91c11f0700864140628d2689a1624445.scn" ]
 
 [params]
 

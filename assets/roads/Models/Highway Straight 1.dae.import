@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Highway Straight 1.dae-85ee762143822a65e4cdf03c2876c5eb.scn"
+path="res://.import/Highway Straight 1.dae-8982dde7be068b0e5c4687567413669e.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Highway Straight 1.dae"
-dest_files=[ "res://.import/Highway Straight 1.dae-85ee762143822a65e4cdf03c2876c5eb.scn" ]
+source_file="res://assets/roads/Models/Highway Straight 1.dae"
+dest_files=[ "res://.import/Highway Straight 1.dae-8982dde7be068b0e5c4687567413669e.scn" ]
 
 [params]
 

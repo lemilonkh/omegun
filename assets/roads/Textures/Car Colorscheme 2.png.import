@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Car Colorscheme 2.png-4f7f2f81f442b43fb6deaee9a85458c0.stex"
+path="res://.import/Car Colorscheme 2.png-4e7f30864a399f35b6eb7091e0c3fad1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/melee_weapons/Textures/Car Colorscheme 2.png"
-dest_files=[ "res://.import/Car Colorscheme 2.png-4f7f2f81f442b43fb6deaee9a85458c0.stex" ]
+source_file="res://assets/roads/Textures/Car Colorscheme 2.png"
+dest_files=[ "res://.import/Car Colorscheme 2.png-4e7f30864a399f35b6eb7091e0c3fad1.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Tunnel Curve.dae-8d479c6e5edff9b3ffab870db563f620.scn"
+path="res://.import/Tunnel Curve.dae-ff74f074db5f9abe248708f414c8ff5e.scn"
 
 [deps]
 
-source_file="res://assets/melee_weapons/Models/Tunnel Curve.dae"
-dest_files=[ "res://.import/Tunnel Curve.dae-8d479c6e5edff9b3ffab870db563f620.scn" ]
+source_file="res://assets/roads/Models/Tunnel Curve.dae"
+dest_files=[ "res://.import/Tunnel Curve.dae-ff74f074db5f9abe248708f414c8ff5e.scn" ]
 
 [params]
 
