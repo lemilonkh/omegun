@@ -14,5 +14,5 @@ dest_files=[ "res://.import/scythe.obj-82dfd15e51d6641f8684f61ce793cfe2.mesh", "
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
+scale_mesh=Vector3( 0.5, 0.5, 0.5 )
 optimize_mesh=true
