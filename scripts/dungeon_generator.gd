@@ -10,8 +10,8 @@ extends GridMap
 export var width = 22
 export var height = 22
 
-func neighboor(x, y, z):
-	return (get_cell_item(x + 1, y, z) == INVALID_CELL_ITEM or get_cell_item(x - 1, y, z) == INVALID_CELL_ITEM or get_cell_item(x, y, z + 1) == INVALID_CELL_ITEM or get_cell_item(x, y, z - 1) == INVALID_CELL_ITEM or get_cell_item(x + 1, y, z + 1) == INVALID_CELL_ITEM or get_cell_item(x +  1, y, z - 1) == INVALID_CELL_ITEM or get_cell_item(x - 1, y, z + 1) == INVALID_CELL_ITEM or get_cell_item(x  - 1, y, z - 1) == INVALID_CELL_ITEM)
+func has_neighbor(x, y, z, cell_type = INVALID_CELL_ITEM):
+	return (get_cell_item(x + 1, y, z) == cell_type or get_cell_item(x - 1, y, z) == cell_type or get_cell_item(x, y, z + 1) == cell_type	 or get_cell_item(x, y, z - 1) == cell_type or get_cell_item(x + 1, y, z + 1) == cell_type or get_cell_item(x +  1, y, z - 1) == cell_type or get_cell_item(x - 1, y, z + 1) == cell_type or get_cell_item(x  - 1, y, z - 1) == cell_type)
 
 func randint(valmin, valmax):
 	randomize()
@@ -138,7 +138,7 @@ func _init():
 		
 		for x in range(list_of_rooms[i][0], list_of_rooms[i][2]):
 			for z in range( list_of_rooms[i][1], list_of_rooms[i][3]):
-				if neighboor(x, y, z):
+				if has_neighbor(x, y, z):
 					set_cell_item(x, y + 1, z, 1)
 	for i in range(list_of_rooms.size()):
 		
