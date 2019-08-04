@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/scythe.obj-82dfd15e51d6641f8684f61ce793cfe2.mesh"
+
+[deps]
+
+files=[ "res://.import/scythe.obj-82dfd15e51d6641f8684f61ce793cfe2.mesh" ]
+
+source_file="res://assets/weapons/scythe.obj"
+dest_files=[ "res://.import/scythe.obj-82dfd15e51d6641f8684f61ce793cfe2.mesh", "res://.import/scythe.obj-82dfd15e51d6641f8684f61ce793cfe2.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

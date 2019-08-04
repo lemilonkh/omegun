@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=2]
+[gd_scene load_steps=23 format=2]
 
 [ext_resource path="res://scripts/player.gd" type="Script" id=1]
 [ext_resource path="res://assets/player/Material_001.material" type="Material" id=2]
@@ -6,12 +6,13 @@
 [ext_resource path="res://assets/player/EyeTexture.material" type="Material" id=4]
 [ext_resource path="res://assets/icons/eye_texture.png" type="Texture" id=5]
 [ext_resource path="res://scenes/laser.tscn" type="PackedScene" id=6]
-[ext_resource path="res://scripts/camera_follow.gd" type="Script" id=7]
-[ext_resource path="res://assets/icons/shield.png" type="Texture" id=8]
-[ext_resource path="res://assets/icons/laser.png" type="Texture" id=9]
-[ext_resource path="res://assets/icons/reload.png" type="Texture" id=10]
-[ext_resource path="res://assets/icons/spiral.png" type="Texture" id=11]
-[ext_resource path="res://scenes/custom_shield.tscn" type="PackedScene" id=12]
+[ext_resource path="res://assets/weapons/scythe.obj" type="ArrayMesh" id=7]
+[ext_resource path="res://scripts/camera_follow.gd" type="Script" id=8]
+[ext_resource path="res://assets/icons/shield.png" type="Texture" id=9]
+[ext_resource path="res://assets/icons/laser.png" type="Texture" id=10]
+[ext_resource path="res://assets/icons/reload.png" type="Texture" id=11]
+[ext_resource path="res://assets/icons/spiral.png" type="Texture" id=12]
+[ext_resource path="res://scenes/custom_shield.tscn" type="PackedScene" id=13]
 
 [sub_resource type="ArrayMesh" id=1]
 resource_name = "Cone"
@@ -261,6 +262,7 @@ collision_layer = 2
 collision_mask = 3
 script = ExtResource( 1 )
 camera_node = NodePath("Camera")
+speed = 17
 
 [node name="body" type="MeshInstance" parent="."]
 transform = Transform( -0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, -0.707107, 0, 0, 0 )
@@ -283,6 +285,21 @@ material/1 = SubResource( 4 )
 [node name="laser" parent="head_bone" instance=ExtResource( 6 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0 )
 
+[node name="weapon" type="Spatial" parent="head_bone"]
+
+[node name="MeshInstance" type="MeshInstance" parent="head_bone/weapon"]
+transform = Transform( -2.18557e-08, 0.5, 0, -0.5, -2.18557e-08, 0, 0, 0, 0.5, 0.951897, 0, 0.0120468 )
+mesh = ExtResource( 7 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "idle"
 anims/damage = SubResource( 5 )
@@ -296,7 +313,7 @@ shape = SubResource( 9 )
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 5.59107, 0 )
 current = true
-script = ExtResource( 7 )
+script = ExtResource( 8 )
 
 [node name="OmniLight" type="OmniLight" parent="."]
 light_color = Color( 0.537255, 1, 0.784314, 1 )
@@ -307,24 +324,24 @@ shadow_enabled = true
 
 [node name="cards" type="Spatial" parent="."]
 transform = Transform( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 )
+visible = false
 
 [node name="Sprite3D" type="Sprite3D" parent="cards"]
 transform = Transform( -2.18557e-08, 0.5, 2.18557e-08, 0, -2.18557e-08, 0.5, 0.5, 2.18557e-08, 9.55343e-16, 1, 0, 0 )
-texture = ExtResource( 8 )
+texture = ExtResource( 9 )
 
 [node name="Sprite3D2" type="Sprite3D" parent="cards"]
 transform = Transform( -0.5, -7.54979e-08, -3.30012e-15, 0, -2.18557e-08, 0.5, -7.54979e-08, 0.5, 2.18557e-08, -5.96046e-08, 0, -1 )
-texture = ExtResource( 9 )
+texture = ExtResource( 10 )
 
 [node name="Sprite3D3" type="Sprite3D" parent="cards"]
 transform = Transform( 3.7749e-08, -0.5, -2.18557e-08, 0, -2.18557e-08, 0.5, -0.5, -3.7749e-08, -1.65006e-15, -1, 0, 0 )
-texture = ExtResource( 10 )
+texture = ExtResource( 11 )
 
 [node name="Sprite3D4" type="Sprite3D" parent="cards"]
 transform = Transform( 0.5, 8.74228e-08, 3.82137e-15, 0, -2.18557e-08, 0.5, 8.74228e-08, -0.5, -2.18557e-08, 5.96046e-08, 0, 1 )
-texture = ExtResource( 11 )
+texture = ExtResource( 12 )
 
-[node name="shield" parent="." instance=ExtResource( 12 )]
+[node name="shield" parent="." instance=ExtResource( 13 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.151301, 0 )
-
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_finished"]

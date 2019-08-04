@@ -34,4 +34,3 @@ scale_random = 0.5
 color = Color( 1, 0.823529, 0.619608, 1 )
 hue_variation = 0.2
 hue_variation_random = 0.3
-

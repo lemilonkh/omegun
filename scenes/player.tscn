@@ -107,4 +107,3 @@ light_color = Color( 0, 1, 0.764706, 1 )
 light_energy = 8.0
 light_indirect_energy = 4.0
 shadow_enabled = true
-
