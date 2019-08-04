@@ -6,31 +6,33 @@ extends GridMap
 # |    `   \  |  /   |  \/ /_/  >  ___(  <_> )   |  \ \    \_\  \  ___/|   |  \  ___/|  | \// __ \|  | (  <_> )  | \/
 #/_______  /____/|___|  /\___  / \___  >____/|___|  /  \______  /\___  >___|  /\___  >__|  (____  /__|  \____/|__|   
 #        \/           \//_____/      \/           \/          \/     \/     \/     \/           \/                   
-#
+
 export var width = 22
 export var height = 22
+
 func neighboor(x, y, z):
 	return (get_cell_item(x + 1, y, z) == INVALID_CELL_ITEM or get_cell_item(x - 1, y, z) == INVALID_CELL_ITEM or get_cell_item(x, y, z + 1) == INVALID_CELL_ITEM or get_cell_item(x, y, z - 1) == INVALID_CELL_ITEM or get_cell_item(x + 1, y, z + 1) == INVALID_CELL_ITEM or get_cell_item(x +  1, y, z - 1) == INVALID_CELL_ITEM or get_cell_item(x - 1, y, z + 1) == INVALID_CELL_ITEM or get_cell_item(x  - 1, y, z - 1) == INVALID_CELL_ITEM)
-func abs(val):
-	if val > 0 : return val
-	return -val
+
 func randint(valmin, valmax):
 	randomize()
+	
 	if valmin > valmax:
 		valmin = valmin + valmax
 		valmax = valmin - valmax
 		valmin = valmin - valmax
+	
 	if valmin + valmax == 0:
-		return randi() % (2 * valmax) + valmin 
+		return randi() % (2 * valmax) + valmin
+	
 	if valmin < 0 and valmax < 0:
-		(randi() % (valmin + valmax ) + valmin) * -1
+		return (randi() % (valmin + valmax ) + valmin) * -1
+	
 	return randi() % int(abs(valmax) - abs(valmin) ) + valmin
 
 func swap(a, b):
 	return([b, a])
 	
 func collision_test(x1a, z1a, x2a, z2a, x1b, z1b, x2b, z2b):
-
 	var collisionX = 0
 	var collisionZ = 0
 	
@@ -52,10 +54,11 @@ func collision_test(x1a, z1a, x2a, z2a, x1b, z1b, x2b, z2b):
 	if z1b > z1a and z1a > z2b or z1b > z2a and z2a > z2b:
 		collisionZ = 1
 
-	if collisionX and collisionZ :
+	if collisionX and collisionZ:
 		return 1
-	else :
+	else:
 		return 0
+
 func add_room(recursionlvl, list_of_rooms, room_id):
 	if recursionlvl > 0 :
 		for i in range(0, 2):
@@ -111,8 +114,6 @@ func add_room(recursionlvl, list_of_rooms, room_id):
 				if remaining_try == 0:
 					#print("fail")
 					room_successfully_placed = true
-
-
 
 func _init():
 	#set_translation(Vector3(-width / 2, 0, -height / 2))
