@@ -63,4 +63,3 @@ shader_param/speed = 4.0
 shader_param/color_count = 41.0
 shader_param/noise_texture = SubResource( 5 )
 shader_param/displacement_texture = SubResource( 3 )
-
