@@ -9,6 +9,8 @@ extends GridMap
 
 export var width = 22
 export var height = 22
+export var recursion_depth = 8
+export var start_room_size = 4
 
 func has_neighbor(x, y, z, cell_type = INVALID_CELL_ITEM):
 	return (get_cell_item(x + 1, y, z) == cell_type or get_cell_item(x - 1, y, z) == cell_type or get_cell_item(x, y, z + 1) == cell_type	 or get_cell_item(x, y, z - 1) == cell_type or get_cell_item(x + 1, y, z + 1) == cell_type or get_cell_item(x +  1, y, z - 1) == cell_type or get_cell_item(x - 1, y, z + 1) == cell_type or get_cell_item(x  - 1, y, z - 1) == cell_type)
@@ -107,7 +109,7 @@ func add_room(recursionlvl, list_of_rooms, room_id):
 				if collision == 0:
 					list_of_rooms.append(room)
 					#print("debugroom", room, originX," ", originY," ", room_id, parent)
-					print(room, ",")
+					#print(room, ",")
 					add_room(recursionlvl - 1, list_of_rooms, list_of_rooms.size() - 1)
 					room_successfully_placed = true
 				remaining_try -= 1
@@ -117,20 +119,22 @@ func add_room(recursionlvl, list_of_rooms, room_id):
 
 func _init():
 	var frog = preload("res://scenes/enemies/frog.tscn") # TODO use this?
-	var recursion = 8
-	var room_size = 20
 	
 	# CONTAINS THE COORDINATES OF ALL ROOMS IN A FORMAT [[xmin, zmin, xmax, zmax],[...],[...],...]
-	var list_of_rooms = [[-room_size,-room_size,room_size,room_size]]
-	add_room(recursion , list_of_rooms, 0)
+	var list_of_rooms = [[-start_room_size, -start_room_size, start_room_size, start_room_size]]
+	add_room(recursion_depth, list_of_rooms, 0)
 	var item = 1
 	var y = 0
-
+	
 	# floors
 	for i in range(list_of_rooms.size()):
-		print(list_of_rooms[i])
-		for x in range(list_of_rooms[i][0], list_of_rooms[i][2]):
-			for z in range( list_of_rooms[i][1], list_of_rooms[i][3]):
+		var x_min = list_of_rooms[i][0]
+		var z_min = list_of_rooms[i][1]
+		var x_max = list_of_rooms[i][2]
+		var z_max = list_of_rooms[i][3]
+		
+		for x in range(x_min, x_max):
+			for z in range(z_min, z_max):
 				set_cell_item(x, y, z, item, 0)
 				
 				if y > 0:
@@ -138,7 +142,12 @@ func _init():
 	
 	# walls
 	for i in range(list_of_rooms.size()):
-		for x in range(list_of_rooms[i][0], list_of_rooms[i][2]):
-			for z in range( list_of_rooms[i][1], list_of_rooms[i][3]):
+		var x_min = list_of_rooms[i][0]
+		var z_min = list_of_rooms[i][1]
+		var x_max = list_of_rooms[i][2]
+		var z_max = list_of_rooms[i][3]
+		
+		for x in range(x_min, x_max):
+			for z in range(z_min, z_max):
 				if has_neighbor(x, y, z):
 					set_cell_item(x, y + 1, z, 1)
