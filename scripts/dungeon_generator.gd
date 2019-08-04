@@ -7,10 +7,15 @@ extends GridMap
 #/_______  /____/|___|  /\___  / \___  >____/|___|  /  \______  /\___  >___|  /\___  >__|  (____  /__|  \____/|__|   
 #        \/           \//_____/      \/           \/          \/     \/     \/     \/           \/                   
 
-export var width = 22
-export var height = 22
-export var recursion_depth = 8
-export var start_room_size = 4
+
+onready var enemy = preload("res://scenes/enemies/frog.tscn")
+onready var enemy_root = $enemies
+
+export var width = 22 # scene size in GridMap cells
+export var height = 22 # scene size in GridMap cells
+export var recursion_depth = 8 # number of recursive add_room calls allowed (tree depth)
+export var start_room_size = 4 # GridMap cells
+export var spawn_height = 2 # Godot units
 
 func has_neighbor(x, y, z, cell_type = INVALID_CELL_ITEM):
 	return (get_cell_item(x + 1, y, z) == cell_type or get_cell_item(x - 1, y, z) == cell_type or get_cell_item(x, y, z + 1) == cell_type	 or get_cell_item(x, y, z - 1) == cell_type or get_cell_item(x + 1, y, z + 1) == cell_type or get_cell_item(x +  1, y, z - 1) == cell_type or get_cell_item(x - 1, y, z + 1) == cell_type or get_cell_item(x  - 1, y, z - 1) == cell_type)
@@ -118,8 +123,6 @@ func add_room(recursionlvl, list_of_rooms, room_id):
 					room_successfully_placed = true
 
 func _init():
-	var frog = preload("res://scenes/enemies/frog.tscn") # TODO use this?
-	
 	# CONTAINS THE COORDINATES OF ALL ROOMS IN A FORMAT [[xmin, zmin, xmax, zmax],[...],[...],...]
 	var list_of_rooms = [[-start_room_size, -start_room_size, start_room_size, start_room_size]]
 	add_room(recursion_depth, list_of_rooms, 0)

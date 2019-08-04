@@ -17,6 +17,8 @@ __meta__ = {
 "_editor_clip_": 0
 }
 
+[node name="enemies" type="Spatial" parent="GridMap"]
+
 [node name="player" parent="." instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0 )
 
