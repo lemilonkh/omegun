@@ -15,7 +15,7 @@ export var width = 22 # scene size in GridMap cells
 export var height = 22 # scene size in GridMap cells
 export var recursion_depth = 8 # number of recursive add_room calls allowed (tree depth)
 export var start_room_size = 4 # GridMap cells
-export var spawn_height = 2 # Godot units
+export var spawn_height = 0 # Godot units
 
 func has_neighbor(x, y, z, cell_type = INVALID_CELL_ITEM):
 	return (get_cell_item(x + 1, y, z) == cell_type or get_cell_item(x - 1, y, z) == cell_type or get_cell_item(x, y, z + 1) == cell_type	 or get_cell_item(x, y, z - 1) == cell_type or get_cell_item(x + 1, y, z + 1) == cell_type or get_cell_item(x +  1, y, z - 1) == cell_type or get_cell_item(x - 1, y, z + 1) == cell_type or get_cell_item(x  - 1, y, z - 1) == cell_type)
@@ -136,6 +136,16 @@ func _ready():
 		var x_max = list_of_rooms[i][2]
 		var z_max = list_of_rooms[i][3]
 		
+		print(list_of_rooms[i], ",")
+		if x_max < x_min:
+			var temp = x_min
+			x_min = x_max
+			x_max = temp
+		if z_max < z_min:
+			var temp = z_min
+			z_min = z_max
+			z_max = temp
+			
 		for x in range(x_min, x_max):
 			for z in range(z_min, z_max):
 				set_cell_item(x, y, z, item, 0)
@@ -149,7 +159,16 @@ func _ready():
 		var z_min = list_of_rooms[i][1]
 		var x_max = list_of_rooms[i][2]
 		var z_max = list_of_rooms[i][3]
-		
+
+		if x_max < x_min:
+			var temp = x_min
+			x_min = x_max
+			x_max = temp
+		if z_max < z_min:
+			var temp = z_min
+			z_min = z_max
+			z_max = temp
+					
 		for x in range(x_min, x_max):
 			for z in range(z_min, z_max):
 				if has_neighbor(x, y, z):
