@@ -9,6 +9,8 @@ extends GridMap
 #
 export var width = 22
 export var height = 22
+func neighboor(x, y, z):
+	return (get_cell_item(x + 1, y, z) == INVALID_CELL_ITEM or get_cell_item(x - 1, y, z) == INVALID_CELL_ITEM or get_cell_item(x, y, z + 1) == INVALID_CELL_ITEM or get_cell_item(x, y, z - 1) == INVALID_CELL_ITEM or get_cell_item(x + 1, y, z + 1) == INVALID_CELL_ITEM or get_cell_item(x +  1, y, z - 1) == INVALID_CELL_ITEM or get_cell_item(x - 1, y, z + 1) == INVALID_CELL_ITEM or get_cell_item(x  - 1, y, z - 1) == INVALID_CELL_ITEM)
 func abs(val):
 	if val > 0 : return val
 	return -val
@@ -121,8 +123,9 @@ func _init():
 	#print( collision_test(0,10, -10, 0, -5, 5, 5, 0))
 	var item = 1
 	var y = 0
+	print(' ')
 	for i in range(list_of_rooms.size()):
-		#print(list_of_rooms[i][0],",",list_of_rooms[i][1],",",list_of_rooms[i][2],",",list_of_rooms[i][3])
+		print(list_of_rooms[i])
 		for x in range(list_of_rooms[i][0], list_of_rooms[i][2]):
 			for z in range( list_of_rooms[i][1], list_of_rooms[i][3]):
 				set_cell_item(x, y, z, item, 0)
@@ -131,10 +134,10 @@ func _init():
 					set_cell_item(x, 0, z, 1, 0)
 	#walls
 	for i in range(list_of_rooms.size()):
-		#print(list_of_rooms[i][0],",",list_of_rooms[i][1],",",list_of_rooms[i][2],",",list_of_rooms[i][3])
+		
 		for x in range(list_of_rooms[i][0], list_of_rooms[i][2]):
 			for z in range( list_of_rooms[i][1], list_of_rooms[i][3]):
-				if get_cell_item(x + 1, y, z) == INVALID_CELL_ITEM or get_cell_item(x - 1, y, z) == INVALID_CELL_ITEM or get_cell_item(x, y, z + 1) == INVALID_CELL_ITEM or get_cell_item(x, y, z - 1) == INVALID_CELL_ITEM or get_cell_item(x + 1, y, z + 1) == INVALID_CELL_ITEM or get_cell_item(x +  1, y, z - 1) == INVALID_CELL_ITEM or get_cell_item(x - 1, y, z + 1) == INVALID_CELL_ITEM or get_cell_item(x  - 1, y, z - 1) == INVALID_CELL_ITEM:
+				if neighboor(x, y, z):
 					set_cell_item(x, y + 1, z, 1)
 	for i in range(list_of_rooms.size()):
 		
