@@ -3,11 +3,22 @@ extends RigidBody
 export(float, 0, 1) var damage = 1
 export(float, 0, 100) var max_damage_force = 1 # Newton
 
+onready var model = $MeshInstance
 var is_attached = false
 var force = Vector3()
 
 func _ready():
-	pass
+	print("Surface materials", model.get_surface_material_count())
+	
+	for material_id in range(model.get_surface_material_count()):
+		var material: SpatialMaterial = model.get_surface_material(material_id)
+		
+		if material == null:
+			continue
+		
+		var previous_color = material.albedo_color
+		var new_color = Color(1, 0, 0, 1)
+		material.set_albedo_color(new_color)
 
 func take_damage(damage, source):
 	pass
