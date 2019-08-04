@@ -14,4 +14,5 @@ dest_files=[ "res://.import/Parasaurolophus.obj-5f9ff17c2c24df044f59e5e31d4129fa
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
+scale_mesh=Vector3( 0.5, 0.5, 0.5 )
+optimize_mesh=true
