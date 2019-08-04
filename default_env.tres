@@ -16,3 +16,4 @@ ambient_light_color = Color( 1, 1, 1, 1 )
 ambient_light_sky_contribution = 0.0
 glow_enabled = true
 glow_intensity = 3.47
+glow_bloom = 0.29
