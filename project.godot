@@ -15,13 +15,22 @@ _global_script_class_icons={
 
 [application]
 
-config/name="3D Tactics"
+config/name="Omegun"
 run/main_scene="res://scenes/station.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
 global="*res://scripts/global.gd"
+
+[debug]
+
+settings/crash_handler/message="Please include this when reporting the bug on https://github.com/lemilonkh/omegun/issues"
+gdscript/completion/autocomplete_setters_and_getters=true
+gdscript/warnings/unsafe_property_access=true
+gdscript/warnings/unsafe_method_access=true
+gdscript/warnings/unsafe_cast=true
+gdscript/warnings/unsafe_call_argument=true
 
 [input]
 
