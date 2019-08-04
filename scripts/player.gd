@@ -38,7 +38,7 @@ func _physics_process(delta):
 	# charge/ perform attack
 	if Input.is_action_pressed("attack"):
 		laser.show()
-	else:
+	elif Input.is_action_just_released("attack"):
 		shield.show()
 
 	direction.y = 0
