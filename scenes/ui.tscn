@@ -1,0 +1,45 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scripts/ui.gd" type="Script" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+
+[node name="ui" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [ 52.1477, 540.643 ],
+"_edit_vertical_guides_": [ 970.856, 50.6666 ]
+}
+
+[node name="joystick_background" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="joystick" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="healthbar" type="TextureProgress" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="heading" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+
+[node name="pause_button" type="ToolButton" parent="."]
+margin_left = 842.939
+margin_top = 54.5297
+margin_right = 1494.94
+margin_bottom = 702.53
+rect_scale = Vector2( 0.158934, 0.158934 )
+icon = ExtResource( 2 )
+flat = false
+
+[node name="attack_button" type="TextureButton" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+[connection signal="toggled" from="pause_button" to="." method="_on_pause_toggled"]
+[connection signal="button_down" from="attack_button" to="." method="_on_attack_button_down"]
+[connection signal="button_up" from="attack_button" to="." method="_on_attack_button_up"]
