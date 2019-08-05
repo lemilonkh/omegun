@@ -10,3 +10,6 @@ Cerberus by Clement Wu, Nikolaus & Botanic
 
 link cerberus
 https://opengameart.org/content/animated-cerberus
+
+Virtual Joystick pack by hannemann from
+https://hannemann.itch.io/virtual-joystick-pack-free
