@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/ELECTRIC 2.wav-d3d7576713b23a99a91f1e8475eb0186.sample"
+
+[deps]
+
+source_file="res://sounds/ELECTRIC/ELECTRIC SHORT/ELECTRIC 2.wav"
+dest_files=[ "res://.import/ELECTRIC 2.wav-d3d7576713b23a99a91f1e8475eb0186.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
