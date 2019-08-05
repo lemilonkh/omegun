@@ -1,8 +1,27 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=23 format=2]
 
 [ext_resource path="res://assets/station.meshlib" type="MeshLibrary" id=1]
 [ext_resource path="res://scripts/dungeon_generator.gd" type="Script" id=2]
-[ext_resource path="res://scenes/player_model.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/weapons/axe.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scripts/sticky_body.gd" type="Script" id=4]
+[ext_resource path="res://assets/nature/flower_blue3.obj" type="ArrayMesh" id=5]
+[ext_resource path="res://assets/nature/flower_red3.obj" type="ArrayMesh" id=6]
+[ext_resource path="res://assets/nature/mushroom_brown.obj" type="ArrayMesh" id=7]
+[ext_resource path="res://assets/nature/mushroom_redGroup.obj" type="ArrayMesh" id=8]
+[ext_resource path="res://assets/nature/tree_pineSmall_round5.obj" type="ArrayMesh" id=9]
+[ext_resource path="res://assets/nature/treeStump_old.obj" type="ArrayMesh" id=10]
+[ext_resource path="res://assets/nature/pumpkin.obj" type="ArrayMesh" id=11]
+[ext_resource path="res://assets/nature/tree_thin_fall.obj" type="ArrayMesh" id=12]
+[ext_resource path="res://scenes/weapons/heavy_spear.tscn" type="PackedScene" id=13]
+[ext_resource path="res://assets/weapons/rocketlauncher.obj" type="ArrayMesh" id=14]
+[ext_resource path="res://assets/weapons/pistolSilencer.obj" type="ArrayMesh" id=15]
+[ext_resource path="res://assets/weapons/machinegunLauncher.obj" type="ArrayMesh" id=16]
+[ext_resource path="res://assets/weapons/knifeRound_sharp.obj" type="ArrayMesh" id=17]
+[ext_resource path="res://assets/weapons/flamethrower.obj" type="ArrayMesh" id=18]
+[ext_resource path="res://assets/animals/Rat.obj" type="ArrayMesh" id=19]
+[ext_resource path="res://assets/weapons/uziGold.obj" type="ArrayMesh" id=20]
+[ext_resource path="res://assets/weapons/uzi.obj" type="ArrayMesh" id=21]
+[ext_resource path="res://scenes/player_model.tscn" type="PackedScene" id=22]
 
 [node name="Spatial" type="Spatial"]
 
@@ -16,10 +35,432 @@ script = ExtResource( 2 )
 __meta__ = {
 "_editor_clip_": 0
 }
+width = 400
+height = 400
+recursion_depth = 9
+start_room_size = 20
+spawn_height = 2
 
 [node name="enemies" type="Spatial" parent="GridMap"]
 
-[node name="player" parent="." instance=ExtResource( 3 )]
+[node name="weapons" type="Spatial" parent="GridMap"]
+
+[node name="axe" parent="GridMap/weapons" instance=ExtResource( 3 )]
+transform = Transform( -4.37114e-08, 1, 0, 4.37114e-08, 1.91069e-15, -1, -1, -4.37114e-08, -4.37114e-08, 4.98395, 1.7955, 0 )
+script = ExtResource( 4 )
+
+[node name="axe2" parent="GridMap/weapons" instance=ExtResource( 3 )]
+transform = Transform( -4.37114e-08, 1, 0, 4.37114e-08, 1.91069e-15, -1, -1, -4.37114e-08, -4.37114e-08, 9.01574, 1.7955, -3.42734 )
+script = ExtResource( 4 )
+
+[node name="axe3" parent="GridMap/weapons" instance=ExtResource( 3 )]
+transform = Transform( -4.37114e-08, 1, 0, 4.37114e-08, 1.91069e-15, -1, -1, -4.37114e-08, -4.37114e-08, -1.09369, 1.7955, 6.36955 )
+script = ExtResource( 4 )
+
+[node name="terrain" type="Spatial" parent="GridMap"]
+
+[node name="flower_blue3" type="MeshInstance" parent="GridMap/terrain"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.1135, -0.329269, 12.5893 )
+mesh = ExtResource( 5 )
+material/0 = null
+material/1 = null
+
+[node name="flower_red3" type="MeshInstance" parent="GridMap/terrain"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.31099, 0.195311, -3.59044 )
+mesh = ExtResource( 6 )
+material/0 = null
+material/1 = null
+
+[node name="mushroom_brown" type="MeshInstance" parent="GridMap/terrain"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.77735, -3.4633, 3.48197 )
+mesh = ExtResource( 7 )
+material/0 = null
+material/1 = null
+
+[node name="mushroom_redGroup" type="MeshInstance" parent="GridMap/terrain"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.00952, -1.46821, -4.08543 )
+mesh = ExtResource( 8 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineSmall_round5" type="MeshInstance" parent="GridMap/terrain"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.1632, 10.7561, 6.18465 )
+mesh = ExtResource( 9 )
+material/0 = null
+material/1 = null
+
+[node name="treeStump_old" type="MeshInstance" parent="GridMap/terrain"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.809, -4.30027, -8.25403 )
+mesh = ExtResource( 10 )
+material/0 = null
+
+[node name="pumpkin" type="MeshInstance" parent="GridMap/terrain"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.2788, -0.196999, 3.07671 )
+mesh = ExtResource( 11 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="tree_thin_fall" type="MeshInstance" parent="GridMap/terrain"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.69352, -1.93135, -11.77 )
+mesh = ExtResource( 12 )
+material/0 = null
+material/1 = null
+
+[node name="heavy_spear" parent="GridMap/terrain" instance=ExtResource( 13 )]
+transform = Transform( 0.5, 0, 0, 0, -2.18557e-08, -0.5, 0, 0.5, -2.18557e-08, 0.248614, 4.23868, -1.26803 )
+
+[node name="rocketlauncher" type="MeshInstance" parent="GridMap/terrain"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 8 )
+mesh = ExtResource( 14 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+
+[node name="pistolSilencer" type="MeshInstance" parent="GridMap/terrain"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.20672, 13.8455, -4.81994 )
+mesh = ExtResource( 15 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+
+[node name="machinegunLauncher" type="MeshInstance" parent="GridMap/terrain"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.85975, 13.981, -4.47699 )
+mesh = ExtResource( 16 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+material/52 = null
+material/53 = null
+material/54 = null
+material/55 = null
+material/56 = null
+material/57 = null
+material/58 = null
+
+[node name="knifeRound_sharp" type="MeshInstance" parent="GridMap/terrain"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.4178, 13.3802, -5.18275 )
+mesh = ExtResource( 17 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+material/51 = null
+material/52 = null
+material/53 = null
+material/54 = null
+material/55 = null
+material/56 = null
+material/57 = null
+material/58 = null
+material/59 = null
+material/60 = null
+material/61 = null
+material/62 = null
+material/63 = null
+material/64 = null
+material/65 = null
+material/66 = null
+material/67 = null
+material/68 = null
+material/69 = null
+material/70 = null
+material/71 = null
+material/72 = null
+
+[node name="flamethrower" type="MeshInstance" parent="GridMap/terrain"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.35791, 13.817, -5.07675 )
+mesh = ExtResource( 18 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+material/34 = null
+material/35 = null
+material/36 = null
+material/37 = null
+material/38 = null
+material/39 = null
+material/40 = null
+material/41 = null
+material/42 = null
+material/43 = null
+material/44 = null
+material/45 = null
+material/46 = null
+material/47 = null
+material/48 = null
+material/49 = null
+material/50 = null
+
+[node name="Rat" type="MeshInstance" parent="GridMap/terrain"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, 10 )
+mesh = ExtResource( 19 )
+material/0 = null
+material/1 = null
+
+[node name="uziGold" type="MeshInstance" parent="GridMap/terrain"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.27282, 14.4748, 0.417552 )
+mesh = ExtResource( 20 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+material/33 = null
+
+[node name="uzi" type="MeshInstance" parent="GridMap/terrain"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.25861, 13.8234, -0.0280557 )
+mesh = ExtResource( 21 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+material/24 = null
+material/25 = null
+material/26 = null
+material/27 = null
+material/28 = null
+material/29 = null
+material/30 = null
+material/31 = null
+material/32 = null
+
+[node name="player" parent="." instance=ExtResource( 22 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0 )
 
 [node name="DirectionalLight" type="DirectionalLight" parent="."]

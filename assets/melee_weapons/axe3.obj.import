@@ -14,5 +14,5 @@ dest_files=[ "res://.import/axe3.obj-00a6a834509a956148e38a24e78d572e.mesh", "re
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
+scale_mesh=Vector3( 0.5, 0.5, 0.5 )
 optimize_mesh=true

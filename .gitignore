@@ -9,4 +9,5 @@ export_presets.cfg
 
 # Big files that don't need to be version controlled if unused
 assets/textures
-
+builds
+promo_art

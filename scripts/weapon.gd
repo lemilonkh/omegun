@@ -11,17 +11,19 @@ var is_attached = false
 var force = Vector3()
 
 func _ready():
-	print("Surface materials", model.get_surface_material_count())
+	pass
 	
-	for material_id in range(model.get_surface_material_count()):
-		var material: SpatialMaterial = model.get_surface_material(material_id)
-		
-		if material == null:
-			continue
-		
-		var previous_color = material.albedo_color
-		var new_color = Color(1, 0, 0, 1)
-		material.set_albedo_color(new_color)
+	#print("Surface materials", model.get_surface_material_count())
+	
+#	for material_id in range(model.get_surface_material_count()):
+#		var material: SpatialMaterial = model.get_surface_material(material_id)
+#
+#		if material == null:
+#			continue
+#
+#		var previous_color = material.albedo_color
+#		var new_color = Color(1, 0, 0, 1)
+#		material.set_albedo_color(new_color)
 
 func take_damage(damage, source):
 	pass
