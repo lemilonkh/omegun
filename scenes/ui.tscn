@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://scripts/ui.gd" type="Script" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://scenes/ui/joystick.tscn" type="PackedScene" id=3]
 
 [node name="ui" type="Control"]
 anchor_right = 1.0
@@ -12,21 +13,22 @@ __meta__ = {
 "_edit_vertical_guides_": [ 970.856, 50.6666 ]
 }
 
-[node name="joystick_background" type="TextureRect" parent="."]
-margin_right = 40.0
-margin_bottom = 40.0
-
-[node name="joystick" type="TextureRect" parent="."]
-margin_right = 40.0
-margin_bottom = 40.0
-
 [node name="healthbar" type="TextureProgress" parent="."]
 margin_right = 40.0
 margin_bottom = 40.0
 
 [node name="heading" type="Label" parent="."]
-margin_right = 40.0
-margin_bottom = 14.0
+margin_left = 9.09363
+margin_top = 9.52005
+margin_right = 174.094
+margin_bottom = 45.5201
+grow_horizontal = 0
+size_flags_horizontal = 3
+size_flags_vertical = 7
+text = "OMEGUN ALPHA BUILD
+Gameplay not final xD"
+align = 1
+valign = 1
 
 [node name="pause_button" type="ToolButton" parent="."]
 margin_left = 842.939
@@ -40,6 +42,12 @@ flat = false
 [node name="attack_button" type="TextureButton" parent="."]
 margin_right = 40.0
 margin_bottom = 40.0
+
+[node name="joystick" parent="." instance=ExtResource( 3 )]
+margin_left = 184.201
+margin_top = 427.067
+margin_right = 184.201
+margin_bottom = 427.067
 [connection signal="toggled" from="pause_button" to="." method="_on_pause_toggled"]
 [connection signal="button_down" from="attack_button" to="." method="_on_attack_button_down"]
 [connection signal="button_up" from="attack_button" to="." method="_on_attack_button_up"]
