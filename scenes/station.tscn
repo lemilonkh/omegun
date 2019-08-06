@@ -108,7 +108,7 @@ material/0 = null
 material/1 = null
 
 [node name="heavy_spear" parent="GridMap/terrain" instance=ExtResource( 13 )]
-transform = Transform( 0.5, 0, 0, 0, -2.18557e-08, -0.5, 0, 0.5, -2.18557e-08, 0.248614, 4.23868, -1.26803 )
+transform = Transform( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.248614, 4.23868, -1.26803 )
 
 [node name="rocketlauncher" type="MeshInstance" parent="GridMap/terrain"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 8 )
